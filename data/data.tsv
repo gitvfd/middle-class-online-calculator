@@ -1,0 +1,1597 @@
+Country	Period	Indicator	IncomeClass	Value
+AUS	Mid 2000s	Population share by income class	Lower	33.173933
+AUS	Mid 2000s	Population share by income class	Middle	57.04285
+AUS	Mid 2000s	Population share by income class	Upper	9.7832167
+AUS	Mid 2010s	Population share by income class	Lower	32.38786
+AUS	Mid 2010s	Population share by income class	Middle	58.057421
+AUS	Mid 2010s	Population share by income class	Upper	9.5547186
+AUT	Mid 2000s	Population share by income class	Lower	27.8970254
+AUT	Mid 2000s	Population share by income class	Middle	65.214103
+AUT	Mid 2000s	Population share by income class	Upper	6.8888723
+AUT	Mid 2010s	Population share by income class	Lower	26.4154888
+AUT	Mid 2010s	Population share by income class	Middle	66.520359
+AUT	Mid 2010s	Population share by income class	Upper	7.0641517
+AUT	Mid 2010s	age: 0-17	Lower	33.150389
+AUT	Mid 2010s	age: 0-17	Middle	63.774386
+AUT	Mid 2010s	age: 0-17	Upper	3.0752249
+AUT	Mid 2010s	age: 18-29	Lower	26.204548
+AUT	Mid 2010s	age: 18-29	Middle	67.407215
+AUT	Mid 2010s	age: 18-29	Upper	6.3882374
+AUT	Mid 2010s	age: 30-44	Lower	25.765325
+AUT	Mid 2010s	age: 30-44	Middle	68.755513
+AUT	Mid 2010s	age: 30-44	Upper	5.4791621
+AUT	Mid 2010s	age: 45-64	Lower	20.241793
+AUT	Mid 2010s	age: 45-64	Middle	68.061687
+AUT	Mid 2010s	age: 45-64	Upper	11.69652
+AUT	Mid 2010s	age: 65 or older	Lower	30.782878
+AUT	Mid 2010s	age: 65 or older	Middle	63.563137
+AUT	Mid 2010s	age: 65 or older	Upper	5.6539846
+AUT	Mid 2010s	education: less than upper secondary	Lower	41.839702
+AUT	Mid 2010s	education: less than upper secondary	Middle	55.608129
+AUT	Mid 2010s	education: less than upper secondary	Upper	2.5521686
+AUT	Mid 2010s	education: tertiary	Lower	15.711608
+AUT	Mid 2010s	education: tertiary	Middle	63.316169
+AUT	Mid 2010s	education: tertiary	Upper	20.972224
+AUT	Mid 2010s	education: upper secondary	Lower	21.742212
+AUT	Mid 2010s	education: upper secondary	Middle	71.546995
+AUT	Mid 2010s	education: upper secondary	Upper	6.7107926
+AUT	Mid 2010s	family type: couple with children	Lower	19.131612
+AUT	Mid 2010s	family type: couple with children	Middle	73.875244
+AUT	Mid 2010s	family type: couple with children	Upper	6.9931437
+AUT	Mid 2010s	family type: couple with no children	Lower	21.851442
+AUT	Mid 2010s	family type: couple with no children	Middle	66.869289
+AUT	Mid 2010s	family type: couple with no children	Upper	11.279269
+AUT	Mid 2010s	family type: single adult	Lower	45.588609
+AUT	Mid 2010s	family type: single adult	Middle	50.299379
+AUT	Mid 2010s	family type: single adult	Upper	4.112012
+AUT	Mid 2010s	family type: single parent	Lower	43.129254
+AUT	Mid 2010s	family type: single parent	Middle	54.271742
+AUT	Mid 2010s	family type: single parent	Upper	2.5990033
+BEL	Mid 2000s	Population share by income class	Lower	30.145725
+BEL	Mid 2000s	Population share by income class	Middle	64.762784
+BEL	Mid 2000s	Population share by income class	Upper	5.0914901
+BEL	Mid 2010s	Population share by income class	Lower	29.4981172
+BEL	Mid 2010s	Population share by income class	Middle	65.59277
+BEL	Mid 2010s	Population share by income class	Upper	4.9091128
+BEL	Mid 2010s	age: 0-17	Lower	30.654476
+BEL	Mid 2010s	age: 0-17	Middle	65.947213
+BEL	Mid 2010s	age: 0-17	Upper	3.3983111
+BEL	Mid 2010s	age: 18-29	Lower	25.801287
+BEL	Mid 2010s	age: 18-29	Middle	68.199881
+BEL	Mid 2010s	age: 18-29	Upper	5.9988323
+BEL	Mid 2010s	age: 30-44	Lower	23.095605
+BEL	Mid 2010s	age: 30-44	Middle	71.694091
+BEL	Mid 2010s	age: 30-44	Upper	5.2103044
+BEL	Mid 2010s	age: 45-64	Lower	25.035716
+BEL	Mid 2010s	age: 45-64	Middle	67.192437
+BEL	Mid 2010s	age: 45-64	Upper	7.7718465
+BEL	Mid 2010s	age: 65 or older	Lower	44.36037
+BEL	Mid 2010s	age: 65 or older	Middle	54.396966
+BEL	Mid 2010s	age: 65 or older	Upper	1.2426635
+BEL	Mid 2010s	education: less than upper secondary	Lower	51.764421
+BEL	Mid 2010s	education: less than upper secondary	Middle	47.114289
+BEL	Mid 2010s	education: less than upper secondary	Upper	1.1212895
+BEL	Mid 2010s	education: tertiary	Lower	12.92863
+BEL	Mid 2010s	education: tertiary	Middle	76.759855
+BEL	Mid 2010s	education: tertiary	Upper	10.311515
+BEL	Mid 2010s	education: upper secondary	Lower	28.133671
+BEL	Mid 2010s	education: upper secondary	Middle	68.501844
+BEL	Mid 2010s	education: upper secondary	Upper	3.3644851
+BEL	Mid 2010s	family type: couple with children	Lower	24.059205
+BEL	Mid 2010s	family type: couple with children	Middle	72.060146
+BEL	Mid 2010s	family type: couple with children	Upper	3.8806484
+BEL	Mid 2010s	family type: couple with no children	Lower	21.942966
+BEL	Mid 2010s	family type: couple with no children	Middle	70.728638
+BEL	Mid 2010s	family type: couple with no children	Upper	7.3283964
+BEL	Mid 2010s	family type: single adult	Lower	53.952382
+BEL	Mid 2010s	family type: single adult	Middle	44.203505
+BEL	Mid 2010s	family type: single adult	Upper	1.8441129
+BEL	Mid 2010s	family type: single parent	Lower	68.827483
+BEL	Mid 2010s	family type: single parent	Middle	28.990746
+BEL	Mid 2010s	family type: single parent	Upper	2.1817711
+BRA	Mid 2000s	Population share by income class	Lower	37.05043
+BRA	Mid 2000s	Population share by income class	Middle	41.401506
+BRA	Mid 2000s	Population share by income class	Upper	21.548064
+BRA	Mid 2010s	Population share by income class	Lower	36.132787
+BRA	Mid 2010s	Population share by income class	Middle	44.843866
+BRA	Mid 2010s	Population share by income class	Upper	19.023347
+BRA	Mid 2010s	age: 0-17	Lower	48.778914
+BRA	Mid 2010s	age: 0-17	Middle	39.829676
+BRA	Mid 2010s	age: 0-17	Upper	11.39141
+BRA	Mid 2010s	age: 18-29	Lower	33.681943
+BRA	Mid 2010s	age: 18-29	Middle	46.712584
+BRA	Mid 2010s	age: 18-29	Upper	19.605473
+BRA	Mid 2010s	age: 30-44	Lower	33.929687
+BRA	Mid 2010s	age: 30-44	Middle	45.462004
+BRA	Mid 2010s	age: 30-44	Upper	20.608309
+BRA	Mid 2010s	age: 45-64	Lower	29.454426
+BRA	Mid 2010s	age: 45-64	Middle	45.034058
+BRA	Mid 2010s	age: 45-64	Upper	25.511516
+BRA	Mid 2010s	age: 65 or older	Lower	23.97218
+BRA	Mid 2010s	age: 65 or older	Middle	54.167505
+BRA	Mid 2010s	age: 65 or older	Upper	21.860315
+BRA	Mid 2010s	education: less than upper secondary	Lower	40.095277
+BRA	Mid 2010s	education: less than upper secondary	Middle	49.721057
+BRA	Mid 2010s	education: less than upper secondary	Upper	10.183666
+BRA	Mid 2010s	education: tertiary	Lower	12.646797
+BRA	Mid 2010s	education: tertiary	Middle	22.746522
+BRA	Mid 2010s	education: tertiary	Upper	64.606681
+BRA	Mid 2010s	education: upper secondary	Lower	23.929017
+BRA	Mid 2010s	education: upper secondary	Middle	51.519325
+BRA	Mid 2010s	education: upper secondary	Upper	24.551658
+BRA	Mid 2010s	family type: couple with children	Lower	36.75229
+BRA	Mid 2010s	family type: couple with children	Middle	44.1657
+BRA	Mid 2010s	family type: couple with children	Upper	19.08201
+BRA	Mid 2010s	family type: couple with no children	Lower	24.205619
+BRA	Mid 2010s	family type: couple with no children	Middle	51.147078
+BRA	Mid 2010s	family type: couple with no children	Upper	24.647303
+BRA	Mid 2010s	family type: single adult	Lower	41.195716
+BRA	Mid 2010s	family type: single adult	Middle	38.716078
+BRA	Mid 2010s	family type: single adult	Upper	20.088206
+BRA	Mid 2010s	family type: single parent	Lower	42.595605
+BRA	Mid 2010s	family type: single parent	Middle	43.361626
+BRA	Mid 2010s	family type: single parent	Upper	14.042768
+CAN	Mid 2000s	Population share by income class	Lower	30.597244
+CAN	Mid 2000s	Population share by income class	Middle	60.392589
+CAN	Mid 2000s	Population share by income class	Upper	9.0101667
+CAN	Mid 2010s	Population share by income class	Lower	31.618903
+CAN	Mid 2010s	Population share by income class	Middle	58.434769
+CAN	Mid 2010s	Population share by income class	Upper	9.9463287
+CAN	Mid 2010s	age: 0-17	Lower	39.337294
+CAN	Mid 2010s	age: 0-17	Middle	53.619076
+CAN	Mid 2010s	age: 0-17	Upper	7.0436305
+CAN	Mid 2010s	age: 18-29	Lower	30.870147
+CAN	Mid 2010s	age: 18-29	Middle	58.702246
+CAN	Mid 2010s	age: 18-29	Upper	10.427607
+CAN	Mid 2010s	age: 30-44	Lower	30.060556
+CAN	Mid 2010s	age: 30-44	Middle	60.374473
+CAN	Mid 2010s	age: 30-44	Upper	9.5649707
+CAN	Mid 2010s	age: 45-64	Lower	25.69179
+CAN	Mid 2010s	age: 45-64	Middle	60.607929
+CAN	Mid 2010s	age: 45-64	Upper	13.70028
+CAN	Mid 2010s	age: 65 or older	Lower	36.091062
+CAN	Mid 2010s	age: 65 or older	Middle	57.327473
+CAN	Mid 2010s	age: 65 or older	Upper	6.5814648
+CAN	Mid 2010s	education: less than upper secondary	Lower	48.523527
+CAN	Mid 2010s	education: less than upper secondary	Middle	48.346629
+CAN	Mid 2010s	education: less than upper secondary	Upper	3.1298441
+CAN	Mid 2010s	education: tertiary	Lower	23.023668
+CAN	Mid 2010s	education: tertiary	Middle	63.154156
+CAN	Mid 2010s	education: tertiary	Upper	13.822176
+CAN	Mid 2010s	education: upper secondary	Lower	31.821551
+CAN	Mid 2010s	education: upper secondary	Middle	59.494838
+CAN	Mid 2010s	education: upper secondary	Upper	8.6836111
+CAN	Mid 2010s	family type: couple with children	Lower	26.099835
+CAN	Mid 2010s	family type: couple with children	Middle	62.397157
+CAN	Mid 2010s	family type: couple with children	Upper	11.503008
+CAN	Mid 2010s	family type: couple with no children	Lower	23.725896
+CAN	Mid 2010s	family type: couple with no children	Middle	63.171372
+CAN	Mid 2010s	family type: couple with no children	Upper	13.102733
+CAN	Mid 2010s	family type: single adult	Lower	52.530141
+CAN	Mid 2010s	family type: single adult	Middle	42.411946
+CAN	Mid 2010s	family type: single adult	Upper	5.057913
+CAN	Mid 2010s	family type: single parent	Lower	56.416447
+CAN	Mid 2010s	family type: single parent	Middle	41.395711
+CAN	Mid 2010s	family type: single parent	Upper	2.1878425
+CHE	Mid 2000s	Population share by income class	Lower	28.528247
+CHE	Mid 2000s	Population share by income class	Middle	62.665809
+CHE	Mid 2000s	Population share by income class	Upper	8.8059439
+CHE	Mid 2010s	Population share by income class	Lower	27.5441662
+CHE	Mid 2010s	Population share by income class	Middle	64.52014
+CHE	Mid 2010s	Population share by income class	Upper	7.9356935
+CHE	Mid 2010s	age: 0-17	Lower	33.349547
+CHE	Mid 2010s	age: 0-17	Middle	61.340996
+CHE	Mid 2010s	age: 0-17	Upper	5.3094571
+CHE	Mid 2010s	age: 18-29	Lower	21.362913
+CHE	Mid 2010s	age: 18-29	Middle	72.892991
+CHE	Mid 2010s	age: 18-29	Upper	5.7440954
+CHE	Mid 2010s	age: 30-44	Lower	24.020681
+CHE	Mid 2010s	age: 30-44	Middle	68.296022
+CHE	Mid 2010s	age: 30-44	Upper	7.6832965
+CHE	Mid 2010s	age: 45-64	Lower	20.229201
+CHE	Mid 2010s	age: 45-64	Middle	67.573282
+CHE	Mid 2010s	age: 45-64	Upper	12.197517
+CHE	Mid 2010s	age: 65 or older	Lower	43.57681
+CHE	Mid 2010s	age: 65 or older	Middle	50.871544
+CHE	Mid 2010s	age: 65 or older	Upper	5.5516456
+CHE	Mid 2010s	education: less than upper secondary	Lower	44.886569
+CHE	Mid 2010s	education: less than upper secondary	Middle	53.697683
+CHE	Mid 2010s	education: less than upper secondary	Upper	1.4157476
+CHE	Mid 2010s	education: tertiary	Lower	14.2003
+CHE	Mid 2010s	education: tertiary	Middle	67.630993
+CHE	Mid 2010s	education: tertiary	Upper	18.168706
+CHE	Mid 2010s	education: upper secondary	Lower	26.497247
+CHE	Mid 2010s	education: upper secondary	Middle	67.987308
+CHE	Mid 2010s	education: upper secondary	Upper	5.5154451
+CHE	Mid 2010s	family type: couple with children	Lower	24.849187
+CHE	Mid 2010s	family type: couple with children	Middle	67.346732
+CHE	Mid 2010s	family type: couple with children	Upper	7.8040815
+CHE	Mid 2010s	family type: couple with no children	Lower	22.168545
+CHE	Mid 2010s	family type: couple with no children	Middle	66.000512
+CHE	Mid 2010s	family type: couple with no children	Upper	11.830943
+CHE	Mid 2010s	family type: single adult	Lower	40.826882
+CHE	Mid 2010s	family type: single adult	Middle	54.284216
+CHE	Mid 2010s	family type: single adult	Upper	4.8889026
+CHE	Mid 2010s	family type: single parent	Lower	38.137553
+CHE	Mid 2010s	family type: single parent	Middle	59.990604
+CHE	Mid 2010s	family type: single parent	Upper	1.8718434
+CHL	Mid 2000s	Population share by income class	Lower	35.245623
+CHL	Mid 2000s	Population share by income class	Middle	44.948803
+CHL	Mid 2000s	Population share by income class	Upper	19.805574
+CHL	Mid 2010s	Population share by income class	Lower	33.94035
+CHL	Mid 2010s	Population share by income class	Middle	47.492784
+CHL	Mid 2010s	Population share by income class	Upper	18.566866
+CHN	Mid 2000s	Population share by income class	Lower	36.012116
+CHN	Mid 2000s	Population share by income class	Middle	44.125836
+CHN	Mid 2000s	Population share by income class	Upper	19.862048
+CHN	Mid 2010s	Population share by income class	Lower	35.689318
+CHN	Mid 2010s	Population share by income class	Middle	48.248845
+CHN	Mid 2010s	Population share by income class	Upper	16.061836
+CZE	Mid 2000s	Population share by income class	Lower	23.2935062
+CZE	Mid 2000s	Population share by income class	Middle	70.928375
+CZE	Mid 2000s	Population share by income class	Upper	5.7781187
+CZE	Mid 2010s	Population share by income class	Lower	22.5313372
+CZE	Mid 2010s	Population share by income class	Middle	71.246261
+CZE	Mid 2010s	Population share by income class	Upper	6.2224016
+CZE	Mid 2010s	age: 0-17	Lower	28.386229
+CZE	Mid 2010s	age: 0-17	Middle	65.926222
+CZE	Mid 2010s	age: 0-17	Upper	5.6875496
+CZE	Mid 2010s	age: 18-29	Lower	18.227298
+CZE	Mid 2010s	age: 18-29	Middle	75.270401
+CZE	Mid 2010s	age: 18-29	Upper	6.5023014
+CZE	Mid 2010s	age: 30-44	Lower	18.192001
+CZE	Mid 2010s	age: 30-44	Middle	73.594225
+CZE	Mid 2010s	age: 30-44	Upper	8.2137748
+CZE	Mid 2010s	age: 45-64	Lower	18.535218
+CZE	Mid 2010s	age: 45-64	Middle	73.96716
+CZE	Mid 2010s	age: 45-64	Upper	7.4976218
+CZE	Mid 2010s	age: 65 or older	Lower	32.132942
+CZE	Mid 2010s	age: 65 or older	Middle	66.028976
+CZE	Mid 2010s	age: 65 or older	Upper	1.8380815
+CZE	Mid 2010s	education: less than upper secondary	Lower	41.894933
+CZE	Mid 2010s	education: less than upper secondary	Middle	56.843314
+CZE	Mid 2010s	education: less than upper secondary	Upper	1.2617536
+CZE	Mid 2010s	education: tertiary	Lower	7.9703217
+CZE	Mid 2010s	education: tertiary	Middle	75.649083
+CZE	Mid 2010s	education: tertiary	Upper	16.380595
+CZE	Mid 2010s	education: upper secondary	Lower	21.02955
+CZE	Mid 2010s	education: upper secondary	Middle	74.135981
+CZE	Mid 2010s	education: upper secondary	Upper	4.8344685
+CZE	Mid 2010s	family type: couple with children	Lower	16.401163
+CZE	Mid 2010s	family type: couple with children	Middle	75.92342
+CZE	Mid 2010s	family type: couple with children	Upper	7.6754171
+CZE	Mid 2010s	family type: couple with no children	Lower	11.995066
+CZE	Mid 2010s	family type: couple with no children	Middle	81.276372
+CZE	Mid 2010s	family type: couple with no children	Upper	6.7285623
+CZE	Mid 2010s	family type: single adult	Lower	55.889898
+CZE	Mid 2010s	family type: single adult	Middle	41.595582
+CZE	Mid 2010s	family type: single adult	Upper	2.51452
+CZE	Mid 2010s	family type: single parent	Lower	44.30894
+CZE	Mid 2010s	family type: single parent	Middle	54.070488
+CZE	Mid 2010s	family type: single parent	Upper	1.6205718
+DEU	Mid 2000s	Population share by income class	Lower	26.9845706
+DEU	Mid 2000s	Population share by income class	Middle	65.677204
+DEU	Mid 2000s	Population share by income class	Upper	7.338225
+DEU	Mid 2010s	Population share by income class	Lower	28.717857
+DEU	Mid 2010s	Population share by income class	Middle	63.923794
+DEU	Mid 2010s	Population share by income class	Upper	7.3583494
+DEU	Mid 2010s	age: 0-17	Lower	32.25132
+DEU	Mid 2010s	age: 0-17	Middle	62.644635
+DEU	Mid 2010s	age: 0-17	Upper	5.1040451
+DEU	Mid 2010s	age: 18-29	Lower	32.706273
+DEU	Mid 2010s	age: 18-29	Middle	60.80897
+DEU	Mid 2010s	age: 18-29	Upper	6.4847568
+DEU	Mid 2010s	age: 30-44	Lower	23.888302
+DEU	Mid 2010s	age: 30-44	Middle	67.418456
+DEU	Mid 2010s	age: 30-44	Upper	8.6932427
+DEU	Mid 2010s	age: 45-64	Lower	20.924604
+DEU	Mid 2010s	age: 45-64	Middle	67.359473
+DEU	Mid 2010s	age: 45-64	Upper	11.715923
+DEU	Mid 2010s	age: 65 or older	Lower	35.139999
+DEU	Mid 2010s	age: 65 or older	Middle	59.782706
+DEU	Mid 2010s	age: 65 or older	Upper	5.0772949
+DEU	Mid 2010s	education: less than upper secondary	Lower	50.646
+DEU	Mid 2010s	education: less than upper secondary	Middle	47.769515
+DEU	Mid 2010s	education: less than upper secondary	Upper	1.584485
+DEU	Mid 2010s	education: tertiary	Lower	13.641781
+DEU	Mid 2010s	education: tertiary	Middle	67.003469
+DEU	Mid 2010s	education: tertiary	Upper	19.35475
+DEU	Mid 2010s	education: upper secondary	Lower	29.047617
+DEU	Mid 2010s	education: upper secondary	Middle	66.106517
+DEU	Mid 2010s	education: upper secondary	Upper	4.8458661
+DEU	Mid 2010s	family type: couple with children	Lower	18.663806
+DEU	Mid 2010s	family type: couple with children	Middle	72.645201
+DEU	Mid 2010s	family type: couple with children	Upper	8.690993
+DEU	Mid 2010s	family type: couple with no children	Lower	20.553143
+DEU	Mid 2010s	family type: couple with no children	Middle	67.858363
+DEU	Mid 2010s	family type: couple with no children	Upper	11.588494
+DEU	Mid 2010s	family type: single adult	Lower	44.780242
+DEU	Mid 2010s	family type: single adult	Middle	50.812675
+DEU	Mid 2010s	family type: single adult	Upper	4.4070836
+DEU	Mid 2010s	family type: single parent	Lower	56.42658
+DEU	Mid 2010s	family type: single parent	Middle	41.99092
+DEU	Mid 2010s	family type: single parent	Upper	1.5825006
+DNK	Mid 2000s	Population share by income class	Lower	26.9772803
+DNK	Mid 2000s	Population share by income class	Middle	70.004898
+DNK	Mid 2000s	Population share by income class	Upper	3.017822
+DNK	Mid 2010s	Population share by income class	Lower	26.8479356
+DNK	Mid 2010s	Population share by income class	Middle	68.95772
+DNK	Mid 2010s	Population share by income class	Upper	4.1943445
+DNK	Mid 2010s	age: 0-17	Lower	21.562983
+DNK	Mid 2010s	age: 0-17	Middle	75.131514
+DNK	Mid 2010s	age: 0-17	Upper	3.3055039
+DNK	Mid 2010s	age: 18-29	Lower	39.845702
+DNK	Mid 2010s	age: 18-29	Middle	57.667157
+DNK	Mid 2010s	age: 18-29	Upper	2.4871418
+DNK	Mid 2010s	age: 30-44	Lower	18.340561
+DNK	Mid 2010s	age: 30-44	Middle	78.238893
+DNK	Mid 2010s	age: 30-44	Upper	3.4205463
+DNK	Mid 2010s	age: 45-64	Lower	13.637
+DNK	Mid 2010s	age: 45-64	Middle	78.72532
+DNK	Mid 2010s	age: 45-64	Upper	7.6376803
+DNK	Mid 2010s	age: 65 or older	Lower	50.710156
+DNK	Mid 2010s	age: 65 or older	Middle	47.015567
+DNK	Mid 2010s	age: 65 or older	Upper	2.2742772
+DNK	Mid 2010s	education: less than upper secondary	Lower	43.940078
+DNK	Mid 2010s	education: less than upper secondary	Middle	54.182977
+DNK	Mid 2010s	education: less than upper secondary	Upper	1.8769447
+DNK	Mid 2010s	education: tertiary	Lower	12.766441
+DNK	Mid 2010s	education: tertiary	Middle	78.31094
+DNK	Mid 2010s	education: tertiary	Upper	8.9226185
+DNK	Mid 2010s	education: upper secondary	Lower	25.920622
+DNK	Mid 2010s	education: upper secondary	Middle	70.775512
+DNK	Mid 2010s	education: upper secondary	Upper	3.3038669
+DNK	Mid 2010s	family type: couple with children	Lower	10.693021
+DNK	Mid 2010s	family type: couple with children	Middle	84.292897
+DNK	Mid 2010s	family type: couple with children	Upper	5.0140816
+DNK	Mid 2010s	family type: couple with no children	Lower	24.229248
+DNK	Mid 2010s	family type: couple with no children	Middle	69.57368
+DNK	Mid 2010s	family type: couple with no children	Upper	6.1970723
+DNK	Mid 2010s	family type: single adult	Lower	54.570717
+DNK	Mid 2010s	family type: single adult	Middle	44.117988
+DNK	Mid 2010s	family type: single adult	Upper	1.3112951
+DNK	Mid 2010s	family type: single parent	Lower	47.292419
+DNK	Mid 2010s	family type: single parent	Middle	51.482512
+DNK	Mid 2010s	family type: single parent	Upper	1.2250695
+ESP	Mid 2000s	Population share by income class	Lower	31.11069
+ESP	Mid 2000s	Population share by income class	Middle	60.192273
+ESP	Mid 2000s	Population share by income class	Upper	8.6970373
+ESP	Mid 2010s	Population share by income class	Lower	33.471103
+ESP	Mid 2010s	Population share by income class	Middle	54.982497
+ESP	Mid 2010s	Population share by income class	Upper	11.546399
+ESP	Mid 2010s	age: 0-17	Lower	41.754924
+ESP	Mid 2010s	age: 0-17	Middle	49.512817
+ESP	Mid 2010s	age: 0-17	Upper	8.732259
+ESP	Mid 2010s	age: 18-29	Lower	36.355332
+ESP	Mid 2010s	age: 18-29	Middle	51.84997
+ESP	Mid 2010s	age: 18-29	Upper	11.794697
+ESP	Mid 2010s	age: 30-44	Lower	33.701685
+ESP	Mid 2010s	age: 30-44	Middle	55.598277
+ESP	Mid 2010s	age: 30-44	Upper	10.700037
+ESP	Mid 2010s	age: 45-64	Lower	29.912028
+ESP	Mid 2010s	age: 45-64	Middle	54.497659
+ESP	Mid 2010s	age: 45-64	Upper	15.590313
+ESP	Mid 2010s	age: 65 or older	Lower	28.411988
+ESP	Mid 2010s	age: 65 or older	Middle	62.401678
+ESP	Mid 2010s	age: 65 or older	Upper	9.1863349
+ESP	Mid 2010s	education: less than upper secondary	Lower	41.10543
+ESP	Mid 2010s	education: less than upper secondary	Middle	54.547594
+ESP	Mid 2010s	education: less than upper secondary	Upper	4.3469764
+ESP	Mid 2010s	education: tertiary	Lower	16.702141
+ESP	Mid 2010s	education: tertiary	Middle	56.693692
+ESP	Mid 2010s	education: tertiary	Upper	26.604166
+ESP	Mid 2010s	education: upper secondary	Lower	29.443374
+ESP	Mid 2010s	education: upper secondary	Middle	59.037137
+ESP	Mid 2010s	education: upper secondary	Upper	11.519488
+ESP	Mid 2010s	family type: couple with children	Lower	32.071677
+ESP	Mid 2010s	family type: couple with children	Middle	55.148155
+ESP	Mid 2010s	family type: couple with children	Upper	12.780167
+ESP	Mid 2010s	family type: couple with no children	Lower	26.122541
+ESP	Mid 2010s	family type: couple with no children	Middle	60.709904
+ESP	Mid 2010s	family type: couple with no children	Upper	13.167556
+ESP	Mid 2010s	family type: single adult	Lower	44.598251
+ESP	Mid 2010s	family type: single adult	Middle	48.252843
+ESP	Mid 2010s	family type: single adult	Upper	7.1489054
+ESP	Mid 2010s	family type: single parent	Lower	44.046512
+ESP	Mid 2010s	family type: single parent	Middle	49.079517
+ESP	Mid 2010s	family type: single parent	Upper	6.8739708
+EST	Mid 2000s	Population share by income class	Lower	32.122855
+EST	Mid 2000s	Population share by income class	Middle	57.99876
+EST	Mid 2000s	Population share by income class	Upper	9.8783838
+EST	Mid 2010s	Population share by income class	Lower	33.000681
+EST	Mid 2010s	Population share by income class	Middle	52.843265
+EST	Mid 2010s	Population share by income class	Upper	14.156054
+EST	Mid 2010s	age: 0-17	Lower	28.672882
+EST	Mid 2010s	age: 0-17	Middle	56.673352
+EST	Mid 2010s	age: 0-17	Upper	14.653766
+EST	Mid 2010s	age: 18-29	Lower	24.973615
+EST	Mid 2010s	age: 18-29	Middle	57.119012
+EST	Mid 2010s	age: 18-29	Upper	17.907373
+EST	Mid 2010s	age: 30-44	Lower	24.685875
+EST	Mid 2010s	age: 30-44	Middle	55.73644
+EST	Mid 2010s	age: 30-44	Upper	19.577685
+EST	Mid 2010s	age: 45-64	Lower	32.050744
+EST	Mid 2010s	age: 45-64	Middle	53.281332
+EST	Mid 2010s	age: 45-64	Upper	14.667924
+EST	Mid 2010s	age: 65 or older	Lower	55.052153
+EST	Mid 2010s	age: 65 or older	Middle	41.410036
+EST	Mid 2010s	age: 65 or older	Upper	3.5378115
+EST	Mid 2010s	education: less than upper secondary	Lower	46.588577
+EST	Mid 2010s	education: less than upper secondary	Middle	47.119995
+EST	Mid 2010s	education: less than upper secondary	Upper	6.2914279
+EST	Mid 2010s	education: tertiary	Lower	25.683618
+EST	Mid 2010s	education: tertiary	Middle	48.925561
+EST	Mid 2010s	education: tertiary	Upper	25.390821
+EST	Mid 2010s	education: upper secondary	Lower	34.428823
+EST	Mid 2010s	education: upper secondary	Middle	55.180633
+EST	Mid 2010s	education: upper secondary	Upper	10.390544
+EST	Mid 2010s	family type: couple with children	Lower	22.873935
+EST	Mid 2010s	family type: couple with children	Middle	58.283177
+EST	Mid 2010s	family type: couple with children	Upper	18.842887
+EST	Mid 2010s	family type: couple with no children	Lower	27.004357
+EST	Mid 2010s	family type: couple with no children	Middle	57.534665
+EST	Mid 2010s	family type: couple with no children	Upper	15.460978
+EST	Mid 2010s	family type: single adult	Lower	65.40315
+EST	Mid 2010s	family type: single adult	Middle	28.609182
+EST	Mid 2010s	family type: single adult	Upper	5.9876679
+EST	Mid 2010s	family type: single parent	Lower	47.204682
+EST	Mid 2010s	family type: single parent	Middle	47.60606
+EST	Mid 2010s	family type: single parent	Upper	5.1892584
+FIN	Mid 2000s	Population share by income class	Lower	27.4159035
+FIN	Mid 2000s	Population share by income class	Middle	67.842488
+FIN	Mid 2000s	Population share by income class	Upper	4.7416082
+FIN	Mid 2010s	Population share by income class	Lower	26.9040263
+FIN	Mid 2010s	Population share by income class	Middle	68.334854
+FIN	Mid 2010s	Population share by income class	Upper	4.7611203
+FIN	Mid 2010s	age: 0-17	Lower	23.270856
+FIN	Mid 2010s	age: 0-17	Middle	72.855673
+FIN	Mid 2010s	age: 0-17	Upper	3.873471
+FIN	Mid 2010s	age: 18-29	Lower	36.897227
+FIN	Mid 2010s	age: 18-29	Middle	60.622445
+FIN	Mid 2010s	age: 18-29	Upper	2.4803277
+FIN	Mid 2010s	age: 30-44	Lower	17.855083
+FIN	Mid 2010s	age: 30-44	Middle	77.354022
+FIN	Mid 2010s	age: 30-44	Upper	4.790895
+FIN	Mid 2010s	age: 45-64	Lower	19.996305
+FIN	Mid 2010s	age: 45-64	Middle	72.112789
+FIN	Mid 2010s	age: 45-64	Upper	7.8909054
+FIN	Mid 2010s	age: 65 or older	Lower	41.674262
+FIN	Mid 2010s	age: 65 or older	Middle	55.414003
+FIN	Mid 2010s	age: 65 or older	Upper	2.9117349
+FIN	Mid 2010s	education: less than upper secondary	Lower	44.538739
+FIN	Mid 2010s	education: less than upper secondary	Middle	53.668242
+FIN	Mid 2010s	education: less than upper secondary	Upper	1.7930187
+FIN	Mid 2010s	education: tertiary	Lower	11.452489
+FIN	Mid 2010s	education: tertiary	Middle	78.087037
+FIN	Mid 2010s	education: tertiary	Upper	10.460474
+FIN	Mid 2010s	education: upper secondary	Lower	31.07043
+FIN	Mid 2010s	education: upper secondary	Middle	66.467832
+FIN	Mid 2010s	education: upper secondary	Upper	2.4617381
+FIN	Mid 2010s	family type: couple with children	Lower	14.604496
+FIN	Mid 2010s	family type: couple with children	Middle	80.169573
+FIN	Mid 2010s	family type: couple with children	Upper	5.2259312
+FIN	Mid 2010s	family type: couple with no children	Lower	17.038889
+FIN	Mid 2010s	family type: couple with no children	Middle	75.385229
+FIN	Mid 2010s	family type: couple with no children	Upper	7.5758812
+FIN	Mid 2010s	family type: single adult	Lower	58.574335
+FIN	Mid 2010s	family type: single adult	Middle	40.209815
+FIN	Mid 2010s	family type: single adult	Upper	1.2158504
+FIN	Mid 2010s	family type: single parent	Lower	53.207696
+FIN	Mid 2010s	family type: single parent	Middle	46.155543
+FIN	Mid 2010s	family type: single parent	Upper	0.63676048
+FRA	Mid 2000s	Population share by income class	Lower	26.5866828
+FRA	Mid 2000s	Population share by income class	Middle	66.219427
+FRA	Mid 2000s	Population share by income class	Upper	7.1938903
+FRA	Mid 2010s	Population share by income class	Lower	25.4328877
+FRA	Mid 2010s	Population share by income class	Middle	68.34715
+FRA	Mid 2010s	Population share by income class	Upper	6.2199628
+FRA	Mid 2010s	age: 0-17	Lower	31.885578
+FRA	Mid 2010s	age: 0-17	Middle	63.961285
+FRA	Mid 2010s	age: 0-17	Upper	4.1531377
+FRA	Mid 2010s	age: 18-29	Lower	30.111827
+FRA	Mid 2010s	age: 18-29	Middle	64.653179
+FRA	Mid 2010s	age: 18-29	Upper	5.2349945
+FRA	Mid 2010s	age: 30-44	Lower	24.55806
+FRA	Mid 2010s	age: 30-44	Middle	70.885197
+FRA	Mid 2010s	age: 30-44	Upper	4.5567423
+FRA	Mid 2010s	age: 45-64	Lower	20.443823
+FRA	Mid 2010s	age: 45-64	Middle	70.878658
+FRA	Mid 2010s	age: 45-64	Upper	8.6775183
+FRA	Mid 2010s	age: 65 or older	Lower	22.511707
+FRA	Mid 2010s	age: 65 or older	Middle	69.955867
+FRA	Mid 2010s	age: 65 or older	Upper	7.5324264
+FRA	Mid 2010s	education: less than upper secondary	Lower	36.166759
+FRA	Mid 2010s	education: less than upper secondary	Middle	60.64634
+FRA	Mid 2010s	education: less than upper secondary	Upper	3.1869015
+FRA	Mid 2010s	education: tertiary	Lower	12.448232
+FRA	Mid 2010s	education: tertiary	Middle	74.739772
+FRA	Mid 2010s	education: tertiary	Upper	12.811995
+FRA	Mid 2010s	education: upper secondary	Lower	22.932465
+FRA	Mid 2010s	education: upper secondary	Middle	72.128683
+FRA	Mid 2010s	education: upper secondary	Upper	4.9388518
+FRA	Mid 2010s	family type: couple with children	Lower	24.375391
+FRA	Mid 2010s	family type: couple with children	Middle	71.021298
+FRA	Mid 2010s	family type: couple with children	Upper	4.6033115
+FRA	Mid 2010s	family type: couple with no children	Lower	16.328159
+FRA	Mid 2010s	family type: couple with no children	Middle	74.056365
+FRA	Mid 2010s	family type: couple with no children	Upper	9.615476
+FRA	Mid 2010s	family type: single adult	Lower	36.323723
+FRA	Mid 2010s	family type: single adult	Middle	59.547163
+FRA	Mid 2010s	family type: single adult	Upper	4.1291136
+FRA	Mid 2010s	family type: single parent	Lower	67.360322
+FRA	Mid 2010s	family type: single parent	Middle	31.383926
+FRA	Mid 2010s	family type: single parent	Upper	1.2557523
+GBR	Mid 2000s	Population share by income class	Lower	31.556879
+GBR	Mid 2000s	Population share by income class	Middle	57.354316
+GBR	Mid 2000s	Population share by income class	Upper	11.088805
+GBR	Mid 2010s	Population share by income class	Lower	30.3884307
+GBR	Mid 2010s	Population share by income class	Middle	58.300539
+GBR	Mid 2010s	Population share by income class	Upper	11.31103
+GBR	Mid 2010s	age: 0-17	Lower	38.108035
+GBR	Mid 2010s	age: 0-17	Middle	54.279837
+GBR	Mid 2010s	age: 0-17	Upper	7.6121284
+GBR	Mid 2010s	age: 18-29	Lower	29.935609
+GBR	Mid 2010s	age: 18-29	Middle	59.038352
+GBR	Mid 2010s	age: 18-29	Upper	11.026039
+GBR	Mid 2010s	age: 30-44	Lower	25.336302
+GBR	Mid 2010s	age: 30-44	Middle	60.359158
+GBR	Mid 2010s	age: 30-44	Upper	14.30454
+GBR	Mid 2010s	age: 45-64	Lower	24.405742
+GBR	Mid 2010s	age: 45-64	Middle	59.840731
+GBR	Mid 2010s	age: 45-64	Upper	15.753527
+GBR	Mid 2010s	age: 65 or older	Lower	36.392865
+GBR	Mid 2010s	age: 65 or older	Middle	57.752511
+GBR	Mid 2010s	age: 65 or older	Upper	5.854624
+GBR	Mid 2010s	education: less than upper secondary	Lower	46.888787
+GBR	Mid 2010s	education: less than upper secondary	Middle	50.980501
+GBR	Mid 2010s	education: less than upper secondary	Upper	2.1307125
+GBR	Mid 2010s	education: tertiary	Lower	14.470907
+GBR	Mid 2010s	education: tertiary	Middle	62.173465
+GBR	Mid 2010s	education: tertiary	Upper	23.355628
+GBR	Mid 2010s	education: upper secondary	Lower	30.337182
+GBR	Mid 2010s	education: upper secondary	Middle	61.038793
+GBR	Mid 2010s	education: upper secondary	Upper	8.6240251
+GBR	Mid 2010s	family type: couple with children	Lower	25.482532
+GBR	Mid 2010s	family type: couple with children	Middle	62.235779
+GBR	Mid 2010s	family type: couple with children	Upper	12.281689
+GBR	Mid 2010s	family type: couple with no children	Lower	21.233188
+GBR	Mid 2010s	family type: couple with no children	Middle	61.978621
+GBR	Mid 2010s	family type: couple with no children	Upper	16.788191
+GBR	Mid 2010s	family type: single adult	Lower	46.881556
+GBR	Mid 2010s	family type: single adult	Middle	47.165338
+GBR	Mid 2010s	family type: single adult	Upper	5.9531055
+GBR	Mid 2010s	family type: single parent	Lower	51.16058
+GBR	Mid 2010s	family type: single parent	Middle	47.321922
+GBR	Mid 2010s	family type: single parent	Upper	1.5174989
+GRC	Mid 2000s	Population share by income class	Lower	31.316242
+GRC	Mid 2000s	Population share by income class	Middle	59.507579
+GRC	Mid 2000s	Population share by income class	Upper	9.1761782
+GRC	Mid 2010s	Population share by income class	Lower	32.002787
+GRC	Mid 2010s	Population share by income class	Middle	57.056595
+GRC	Mid 2010s	Population share by income class	Upper	10.940617
+GRC	Mid 2010s	age: 0-17	Lower	37.666276
+GRC	Mid 2010s	age: 0-17	Middle	52.633181
+GRC	Mid 2010s	age: 0-17	Upper	9.7005432
+GRC	Mid 2010s	age: 18-29	Lower	36.603235
+GRC	Mid 2010s	age: 18-29	Middle	53.697951
+GRC	Mid 2010s	age: 18-29	Upper	9.6988137
+GRC	Mid 2010s	age: 30-44	Lower	32.686749
+GRC	Mid 2010s	age: 30-44	Middle	55.989441
+GRC	Mid 2010s	age: 30-44	Upper	11.32381
+GRC	Mid 2010s	age: 45-64	Lower	29.01571
+GRC	Mid 2010s	age: 45-64	Middle	56.94151
+GRC	Mid 2010s	age: 45-64	Upper	14.042781
+GRC	Mid 2010s	age: 65 or older	Lower	27.975529
+GRC	Mid 2010s	age: 65 or older	Middle	63.866929
+GRC	Mid 2010s	age: 65 or older	Upper	8.1575422
+GRC	Mid 2010s	education: less than upper secondary	Lower	40.224351
+GRC	Mid 2010s	education: less than upper secondary	Middle	55.899923
+GRC	Mid 2010s	education: less than upper secondary	Upper	3.8757264
+GRC	Mid 2010s	education: tertiary	Lower	12.952687
+GRC	Mid 2010s	education: tertiary	Middle	60.534749
+GRC	Mid 2010s	education: tertiary	Upper	26.512563
+GRC	Mid 2010s	education: upper secondary	Lower	31.532693
+GRC	Mid 2010s	education: upper secondary	Middle	58.83313
+GRC	Mid 2010s	education: upper secondary	Upper	9.6341776
+GRC	Mid 2010s	family type: couple with children	Lower	32.397752
+GRC	Mid 2010s	family type: couple with children	Middle	54.988805
+GRC	Mid 2010s	family type: couple with children	Upper	12.613443
+GRC	Mid 2010s	family type: couple with no children	Lower	25.910831
+GRC	Mid 2010s	family type: couple with no children	Middle	64.143039
+GRC	Mid 2010s	family type: couple with no children	Upper	9.9461298
+GRC	Mid 2010s	family type: single adult	Lower	37.232617
+GRC	Mid 2010s	family type: single adult	Middle	56.435157
+GRC	Mid 2010s	family type: single adult	Upper	6.3322255
+GRC	Mid 2010s	family type: single parent	Lower	39.407844
+GRC	Mid 2010s	family type: single parent	Middle	53.380488
+GRC	Mid 2010s	family type: single parent	Upper	7.2116687
+HUN	Mid 2000s	Population share by income class	Lower	26.3369791
+HUN	Mid 2000s	Population share by income class	Middle	67.200799
+HUN	Mid 2000s	Population share by income class	Upper	6.4622219
+HUN	Mid 2010s	Population share by income class	Lower	24.8015936
+HUN	Mid 2010s	Population share by income class	Middle	68.37354
+HUN	Mid 2010s	Population share by income class	Upper	6.8248665
+HUN	Mid 2010s	age: 0-17	Lower	40.031953
+HUN	Mid 2010s	age: 0-17	Middle	56.22682
+HUN	Mid 2010s	age: 0-17	Upper	3.7412268
+HUN	Mid 2010s	age: 18-29	Lower	29.047792
+HUN	Mid 2010s	age: 18-29	Middle	61.666671
+HUN	Mid 2010s	age: 18-29	Upper	9.2855367
+HUN	Mid 2010s	age: 30-44	Lower	26.274937
+HUN	Mid 2010s	age: 30-44	Middle	65.783377
+HUN	Mid 2010s	age: 30-44	Upper	7.9416862
+HUN	Mid 2010s	age: 45-64	Lower	26.650436
+HUN	Mid 2010s	age: 45-64	Middle	63.693502
+HUN	Mid 2010s	age: 45-64	Upper	9.6560617
+HUN	Mid 2010s	age: 65 or older	Lower	28.432412
+HUN	Mid 2010s	age: 65 or older	Middle	68.058331
+HUN	Mid 2010s	age: 65 or older	Upper	3.5092566
+HUN	Mid 2010s	education: less than upper secondary	Lower	55.06188
+HUN	Mid 2010s	education: less than upper secondary	Middle	43.633575
+HUN	Mid 2010s	education: less than upper secondary	Upper	1.3045452
+HUN	Mid 2010s	education: tertiary	Lower	6.9323975
+HUN	Mid 2010s	education: tertiary	Middle	71.852499
+HUN	Mid 2010s	education: tertiary	Upper	21.215103
+HUN	Mid 2010s	education: upper secondary	Lower	15.464086
+HUN	Mid 2010s	education: upper secondary	Middle	74.61278
+HUN	Mid 2010s	education: upper secondary	Upper	9.9231336
+HUN	Mid 2010s	family type: couple with children	Lower	28.385347
+HUN	Mid 2010s	family type: couple with children	Middle	63.118341
+HUN	Mid 2010s	family type: couple with children	Upper	8.4963123
+HUN	Mid 2010s	family type: couple with no children	Lower	16.404108
+HUN	Mid 2010s	family type: couple with no children	Middle	74.01294
+HUN	Mid 2010s	family type: couple with no children	Upper	9.5829521
+HUN	Mid 2010s	family type: single adult	Lower	47.826756
+HUN	Mid 2010s	family type: single adult	Middle	48.238664
+HUN	Mid 2010s	family type: single adult	Upper	3.9345799
+HUN	Mid 2010s	family type: single parent	Lower	44.916212
+HUN	Mid 2010s	family type: single parent	Middle	51.496973
+HUN	Mid 2010s	family type: single parent	Upper	3.5868144
+IND	Mid 2000s	Population share by income class	Lower	36.794739
+IND	Mid 2000s	Population share by income class	Middle	39.796532
+IND	Mid 2000s	Population share by income class	Upper	23.408729
+IND	Mid 2010s	Population share by income class	Lower	36.892684
+IND	Mid 2010s	Population share by income class	Middle	40.231876
+IND	Mid 2010s	Population share by income class	Upper	22.87544
+IRL	Mid 2000s	Population share by income class	Lower	31.594603
+IRL	Mid 2000s	Population share by income class	Middle	60.263094
+IRL	Mid 2000s	Population share by income class	Upper	8.142303
+IRL	Mid 2010s	Population share by income class	Lower	30.9145323
+IRL	Mid 2010s	Population share by income class	Middle	60.437262
+IRL	Mid 2010s	Population share by income class	Upper	8.6482055
+IRL	Mid 2010s	age: 0-17	Lower	33.916153
+IRL	Mid 2010s	age: 0-17	Middle	59.74408
+IRL	Mid 2010s	age: 0-17	Upper	6.3397671
+IRL	Mid 2010s	age: 18-29	Lower	30.003075
+IRL	Mid 2010s	age: 18-29	Middle	60.710213
+IRL	Mid 2010s	age: 18-29	Upper	9.2867116
+IRL	Mid 2010s	age: 30-44	Lower	25.349475
+IRL	Mid 2010s	age: 30-44	Middle	64.825626
+IRL	Mid 2010s	age: 30-44	Upper	9.824899
+IRL	Mid 2010s	age: 45-64	Lower	28.339007
+IRL	Mid 2010s	age: 45-64	Middle	60.891043
+IRL	Mid 2010s	age: 45-64	Upper	10.76995
+IRL	Mid 2010s	age: 65 or older	Lower	40.613087
+IRL	Mid 2010s	age: 65 or older	Middle	52.798553
+IRL	Mid 2010s	age: 65 or older	Upper	6.5883605
+IRL	Mid 2010s	education: less than upper secondary	Lower	46.721422
+IRL	Mid 2010s	education: less than upper secondary	Middle	50.656145
+IRL	Mid 2010s	education: less than upper secondary	Upper	2.6224336
+IRL	Mid 2010s	education: tertiary	Lower	16.213648
+IRL	Mid 2010s	education: tertiary	Middle	65.796416
+IRL	Mid 2010s	education: tertiary	Upper	17.989936
+IRL	Mid 2010s	education: upper secondary	Lower	30.9741
+IRL	Mid 2010s	education: upper secondary	Middle	63.661383
+IRL	Mid 2010s	education: upper secondary	Upper	5.3645171
+IRL	Mid 2010s	family type: couple with children	Lower	26.660083
+IRL	Mid 2010s	family type: couple with children	Middle	66.249902
+IRL	Mid 2010s	family type: couple with children	Upper	7.0900155
+IRL	Mid 2010s	family type: couple with no children	Lower	24.111493
+IRL	Mid 2010s	family type: couple with no children	Middle	62.877641
+IRL	Mid 2010s	family type: couple with no children	Upper	13.010865
+IRL	Mid 2010s	family type: single adult	Lower	59.169824
+IRL	Mid 2010s	family type: single adult	Middle	35.452776
+IRL	Mid 2010s	family type: single adult	Upper	5.3774006
+IRL	Mid 2010s	family type: single parent	Lower	77.807105
+IRL	Mid 2010s	family type: single parent	Middle	21.940079
+IRL	Mid 2010s	family type: single parent	Upper	0.25281548
+ISL	Mid 2000s	Population share by income class	Lower	23.247423
+ISL	Mid 2000s	Population share by income class	Middle	70.482101
+ISL	Mid 2000s	Population share by income class	Upper	6.2704761
+ISL	Mid 2010s	Population share by income class	Lower	23.6575431
+ISL	Mid 2010s	Population share by income class	Middle	71.861756
+ISL	Mid 2010s	Population share by income class	Upper	4.4807003
+ISL	Mid 2010s	age: 0-17	Lower	24.895001
+ISL	Mid 2010s	age: 0-17	Middle	71.817466
+ISL	Mid 2010s	age: 0-17	Upper	3.2875332
+ISL	Mid 2010s	age: 18-29	Lower	24.699684
+ISL	Mid 2010s	age: 18-29	Middle	69.902461
+ISL	Mid 2010s	age: 18-29	Upper	5.397855
+ISL	Mid 2010s	age: 30-44	Lower	22.798887
+ISL	Mid 2010s	age: 30-44	Middle	74.167227
+ISL	Mid 2010s	age: 30-44	Upper	3.0338864
+ISL	Mid 2010s	age: 45-64	Lower	14.627474
+ISL	Mid 2010s	age: 45-64	Middle	77.618598
+ISL	Mid 2010s	age: 45-64	Upper	7.7539279
+ISL	Mid 2010s	age: 65 or older	Lower	32.430652
+ISL	Mid 2010s	age: 65 or older	Middle	63.789308
+ISL	Mid 2010s	age: 65 or older	Upper	3.7800407
+ISL	Mid 2010s	education: less than upper secondary	Lower	28.50052
+ISL	Mid 2010s	education: less than upper secondary	Middle	68.072352
+ISL	Mid 2010s	education: less than upper secondary	Upper	3.4271278
+ISL	Mid 2010s	education: tertiary	Lower	15.246687
+ISL	Mid 2010s	education: tertiary	Middle	76.74182
+ISL	Mid 2010s	education: tertiary	Upper	8.0114931
+ISL	Mid 2010s	education: upper secondary	Lower	23.517835
+ISL	Mid 2010s	education: upper secondary	Middle	72.05133
+ISL	Mid 2010s	education: upper secondary	Upper	4.4308348
+ISL	Mid 2010s	family type: couple with children	Lower	16.835113
+ISL	Mid 2010s	family type: couple with children	Middle	79.407529
+ISL	Mid 2010s	family type: couple with children	Upper	3.7573577
+ISL	Mid 2010s	family type: couple with no children	Lower	11.012117
+ISL	Mid 2010s	family type: couple with no children	Middle	81.153014
+ISL	Mid 2010s	family type: couple with no children	Upper	7.8348692
+ISL	Mid 2010s	family type: single adult	Lower	57.165333
+ISL	Mid 2010s	family type: single adult	Middle	40.885442
+ISL	Mid 2010s	family type: single adult	Upper	1.9492253
+ISL	Mid 2010s	family type: single parent	Lower	66.620943
+ISL	Mid 2010s	family type: single parent	Middle	31.869673
+ISL	Mid 2010s	family type: single parent	Upper	1.5093836
+ISR	Mid 2000s	Population share by income class	Lower	35.751552
+ISR	Mid 2000s	Population share by income class	Middle	50.694149
+ISR	Mid 2000s	Population share by income class	Upper	13.554299
+ISR	Mid 2010s	Population share by income class	Lower	34.432238
+ISR	Mid 2010s	Population share by income class	Middle	53.793064
+ISR	Mid 2010s	Population share by income class	Upper	11.774699
+ISR	Mid 2010s	age: 0-17	Lower	43.204759
+ISR	Mid 2010s	age: 0-17	Middle	46.365578
+ISR	Mid 2010s	age: 0-17	Upper	10.429662
+ISR	Mid 2010s	age: 18-29	Lower	33.826571
+ISR	Mid 2010s	age: 18-29	Middle	53.844097
+ISR	Mid 2010s	age: 18-29	Upper	12.329332
+ISR	Mid 2010s	age: 30-44	Lower	30.712952
+ISR	Mid 2010s	age: 30-44	Middle	54.848019
+ISR	Mid 2010s	age: 30-44	Upper	14.439029
+ISR	Mid 2010s	age: 45-64	Lower	25.47041
+ISR	Mid 2010s	age: 45-64	Middle	53.75518
+ISR	Mid 2010s	age: 45-64	Upper	20.77441
+ISR	Mid 2010s	age: 65 or older	Lower	36.651789
+ISR	Mid 2010s	age: 65 or older	Middle	49.615238
+ISR	Mid 2010s	age: 65 or older	Upper	13.732973
+ISR	Mid 2010s	education: less than upper secondary	Lower	55.492723
+ISR	Mid 2010s	education: less than upper secondary	Middle	41.148903
+ISR	Mid 2010s	education: less than upper secondary	Upper	3.3583742
+ISR	Mid 2010s	education: tertiary	Lower	17.559579
+ISR	Mid 2010s	education: tertiary	Middle	56.389517
+ISR	Mid 2010s	education: tertiary	Upper	26.050904
+ISR	Mid 2010s	education: upper secondary	Lower	32.850371
+ISR	Mid 2010s	education: upper secondary	Middle	55.828873
+ISR	Mid 2010s	education: upper secondary	Upper	11.320756
+ISR	Mid 2010s	family type: couple with children	Lower	34.558178
+ISR	Mid 2010s	family type: couple with children	Middle	51.336127
+ISR	Mid 2010s	family type: couple with children	Upper	14.105696
+ISR	Mid 2010s	family type: couple with no children	Lower	22.66938
+ISR	Mid 2010s	family type: couple with no children	Middle	54.022406
+ISR	Mid 2010s	family type: couple with no children	Upper	23.308213
+ISR	Mid 2010s	family type: single adult	Lower	45.174105
+ISR	Mid 2010s	family type: single adult	Middle	43.784871
+ISR	Mid 2010s	family type: single adult	Upper	11.041025
+ISR	Mid 2010s	family type: single parent	Lower	47.313979
+ISR	Mid 2010s	family type: single parent	Middle	47.462425
+ISR	Mid 2010s	family type: single parent	Upper	5.2235968
+ITA	Mid 2000s	Population share by income class	Lower	32.866072
+ITA	Mid 2000s	Population share by income class	Middle	57.753143
+ITA	Mid 2000s	Population share by income class	Upper	9.3807842
+ITA	Mid 2010s	Population share by income class	Lower	32.796035
+ITA	Mid 2010s	Population share by income class	Middle	58.561873
+ITA	Mid 2010s	Population share by income class	Upper	8.6420915
+ITA	Mid 2010s	age: 0-17	Lower	42.534467
+ITA	Mid 2010s	age: 0-17	Middle	52.444272
+ITA	Mid 2010s	age: 0-17	Upper	5.0212605
+ITA	Mid 2010s	age: 18-29	Lower	35.663976
+ITA	Mid 2010s	age: 18-29	Middle	55.996135
+ITA	Mid 2010s	age: 18-29	Upper	8.3398889
+ITA	Mid 2010s	age: 30-44	Lower	33.078539
+ITA	Mid 2010s	age: 30-44	Middle	60.204764
+ITA	Mid 2010s	age: 30-44	Upper	6.7166968
+ITA	Mid 2010s	age: 45-64	Lower	29.069762
+ITA	Mid 2010s	age: 45-64	Middle	59.177558
+ITA	Mid 2010s	age: 45-64	Upper	11.752681
+ITA	Mid 2010s	age: 65 or older	Lower	28.564713
+ITA	Mid 2010s	age: 65 or older	Middle	62.300928
+ITA	Mid 2010s	age: 65 or older	Upper	9.1343592
+ITA	Mid 2010s	education: less than upper secondary	Lower	40.997298
+ITA	Mid 2010s	education: less than upper secondary	Middle	55.437445
+ITA	Mid 2010s	education: less than upper secondary	Upper	3.5652566
+ITA	Mid 2010s	education: tertiary	Lower	12.918836
+ITA	Mid 2010s	education: tertiary	Middle	58.517221
+ITA	Mid 2010s	education: tertiary	Upper	28.563943
+ITA	Mid 2010s	education: upper secondary	Lower	23.955059
+ITA	Mid 2010s	education: upper secondary	Middle	65.785956
+ITA	Mid 2010s	education: upper secondary	Upper	10.258986
+ITA	Mid 2010s	family type: couple with children	Lower	32.433869
+ITA	Mid 2010s	family type: couple with children	Middle	58.985375
+ITA	Mid 2010s	family type: couple with children	Upper	8.5807566
+ITA	Mid 2010s	family type: couple with no children	Lower	21.660333
+ITA	Mid 2010s	family type: couple with no children	Middle	65.44828
+ITA	Mid 2010s	family type: couple with no children	Upper	12.891386
+ITA	Mid 2010s	family type: single adult	Lower	37.364854
+ITA	Mid 2010s	family type: single adult	Middle	57.987956
+ITA	Mid 2010s	family type: single adult	Upper	4.6471894
+ITA	Mid 2010s	family type: single parent	Lower	46.96299
+ITA	Mid 2010s	family type: single parent	Middle	48.001377
+ITA	Mid 2010s	family type: single parent	Upper	5.0356333
+JPN	Mid 2000s	Population share by income class	Lower	27.37
+JPN	Mid 2000s	Population share by income class	Middle	65.58
+JPN	Mid 2000s	Population share by income class	Upper	7.05
+JPN	Mid 2010s	Population share by income class	Lower	27.28
+JPN	Mid 2010s	Population share by income class	Middle	65.21
+JPN	Mid 2010s	Population share by income class	Upper	7.51
+JPN	Mid 2010s	age: 0-17	Lower	29.52
+JPN	Mid 2010s	age: 0-17	Middle	66.76
+JPN	Mid 2010s	age: 0-17	Upper	3.71
+JPN	Mid 2010s	age: 18-29	Lower	25.99
+JPN	Mid 2010s	age: 18-29	Middle	65.05
+JPN	Mid 2010s	age: 18-29	Upper	8.96
+JPN	Mid 2010s	age: 30-44	Lower	25.27
+JPN	Mid 2010s	age: 30-44	Middle	68.81
+JPN	Mid 2010s	age: 30-44	Upper	5.91
+JPN	Mid 2010s	age: 45-64	Lower	23.6
+JPN	Mid 2010s	age: 45-64	Middle	64.49
+JPN	Mid 2010s	age: 45-64	Upper	11.91
+JPN	Mid 2010s	age: 65 or older	Lower	32.34
+JPN	Mid 2010s	age: 65 or older	Middle	61.81
+JPN	Mid 2010s	age: 65 or older	Upper	5.85
+KOR	Mid 2000s	Population share by income class	Lower	31.394486
+KOR	Mid 2000s	Population share by income class	Middle	60.046747
+KOR	Mid 2000s	Population share by income class	Upper	8.5587663
+KOR	Mid 2010s	Population share by income class	Lower	31.053731
+KOR	Mid 2010s	Population share by income class	Middle	61.056137
+KOR	Mid 2010s	Population share by income class	Upper	7.8901326
+KOR	Mid 2010s	age: 0-17	Lower	26.554259
+KOR	Mid 2010s	age: 0-17	Middle	67.017234
+KOR	Mid 2010s	age: 0-17	Upper	6.4285069
+KOR	Mid 2010s	age: 18-29	Lower	21.937159
+KOR	Mid 2010s	age: 18-29	Middle	67.259024
+KOR	Mid 2010s	age: 18-29	Upper	10.803817
+KOR	Mid 2010s	age: 30-44	Lower	23.186568
+KOR	Mid 2010s	age: 30-44	Middle	69.452855
+KOR	Mid 2010s	age: 30-44	Upper	7.3605768
+KOR	Mid 2010s	age: 45-64	Lower	27.76858
+KOR	Mid 2010s	age: 45-64	Middle	61.463447
+KOR	Mid 2010s	age: 45-64	Upper	10.767973
+KOR	Mid 2010s	age: 65 or older	Lower	66.32323
+KOR	Mid 2010s	age: 65 or older	Middle	29.830267
+KOR	Mid 2010s	age: 65 or older	Upper	3.8465038
+KOR	Mid 2010s	education: less than upper secondary	Lower	54.801116
+KOR	Mid 2010s	education: less than upper secondary	Middle	41.94172
+KOR	Mid 2010s	education: less than upper secondary	Upper	3.2571642
+KOR	Mid 2010s	education: tertiary	Lower	16.564833
+KOR	Mid 2010s	education: tertiary	Middle	69.134786
+KOR	Mid 2010s	education: tertiary	Upper	14.300382
+KOR	Mid 2010s	education: upper secondary	Lower	29.570372
+KOR	Mid 2010s	education: upper secondary	Middle	63.22803
+KOR	Mid 2010s	education: upper secondary	Upper	7.2015979
+KOR	Mid 2010s	family type: couple with children	Lower	21.333207
+KOR	Mid 2010s	family type: couple with children	Middle	69.777609
+KOR	Mid 2010s	family type: couple with children	Upper	8.8891832
+KOR	Mid 2010s	family type: couple with no children	Lower	50.482246
+KOR	Mid 2010s	family type: couple with no children	Middle	42.038619
+KOR	Mid 2010s	family type: couple with no children	Upper	7.4791354
+KOR	Mid 2010s	family type: single adult	Lower	65.178598
+KOR	Mid 2010s	family type: single adult	Middle	30.455659
+KOR	Mid 2010s	family type: single adult	Upper	4.365743
+KOR	Mid 2010s	family type: single parent	Lower	38.124978
+KOR	Mid 2010s	family type: single parent	Middle	55.881856
+KOR	Mid 2010s	family type: single parent	Upper	5.9931659
+LTU	Mid 2000s	Population share by income class	Lower	31.62993
+LTU	Mid 2000s	Population share by income class	Middle	57.802205
+LTU	Mid 2000s	Population share by income class	Upper	10.567866
+LTU	Mid 2010s	Population share by income class	Lower	34.705315
+LTU	Mid 2010s	Population share by income class	Middle	52.057476
+LTU	Mid 2010s	Population share by income class	Upper	13.237209
+LTU	Mid 2010s	age: 0-17	Lower	37.568248
+LTU	Mid 2010s	age: 0-17	Middle	51.203725
+LTU	Mid 2010s	age: 0-17	Upper	11.228027
+LTU	Mid 2010s	age: 18-29	Lower	29.338543
+LTU	Mid 2010s	age: 18-29	Middle	54.110791
+LTU	Mid 2010s	age: 18-29	Upper	16.550665
+LTU	Mid 2010s	age: 30-44	Lower	26.141959
+LTU	Mid 2010s	age: 30-44	Middle	56.32273
+LTU	Mid 2010s	age: 30-44	Upper	17.535311
+LTU	Mid 2010s	age: 45-64	Lower	28.175035
+LTU	Mid 2010s	age: 45-64	Middle	56.9466
+LTU	Mid 2010s	age: 45-64	Upper	14.878365
+LTU	Mid 2010s	age: 65 or older	Lower	54.170576
+LTU	Mid 2010s	age: 65 or older	Middle	39.942237
+LTU	Mid 2010s	age: 65 or older	Upper	5.8871872
+LTU	Mid 2010s	education: less than upper secondary	Lower	62.743655
+LTU	Mid 2010s	education: less than upper secondary	Middle	34.156486
+LTU	Mid 2010s	education: less than upper secondary	Upper	3.0998595
+LTU	Mid 2010s	education: tertiary	Lower	13.681411
+LTU	Mid 2010s	education: tertiary	Middle	57.772296
+LTU	Mid 2010s	education: tertiary	Upper	28.546293
+LTU	Mid 2010s	education: upper secondary	Lower	38.499001
+LTU	Mid 2010s	education: upper secondary	Middle	53.548695
+LTU	Mid 2010s	education: upper secondary	Upper	7.9523032
+LTU	Mid 2010s	family type: couple with children	Lower	27.262266
+LTU	Mid 2010s	family type: couple with children	Middle	58.813391
+LTU	Mid 2010s	family type: couple with children	Upper	13.924343
+LTU	Mid 2010s	family type: couple with no children	Lower	23.202505
+LTU	Mid 2010s	family type: couple with no children	Middle	59.817708
+LTU	Mid 2010s	family type: couple with no children	Upper	16.979787
+LTU	Mid 2010s	family type: single adult	Lower	64.779066
+LTU	Mid 2010s	family type: single adult	Middle	28.653968
+LTU	Mid 2010s	family type: single adult	Upper	6.5669657
+LTU	Mid 2010s	family type: single parent	Lower	74.871277
+LTU	Mid 2010s	family type: single parent	Middle	22.836577
+LTU	Mid 2010s	family type: single parent	Upper	2.2921458
+LUX	Mid 2000s	Population share by income class	Lower	25.775876
+LUX	Mid 2000s	Population share by income class	Middle	66.536185
+LUX	Mid 2000s	Population share by income class	Upper	7.6879392
+LUX	Mid 2010s	Population share by income class	Lower	27.7343748
+LUX	Mid 2010s	Population share by income class	Middle	64.663755
+LUX	Mid 2010s	Population share by income class	Upper	7.6018703
+LUX	Mid 2010s	age: 0-17	Lower	39.78203
+LUX	Mid 2010s	age: 0-17	Middle	56.009107
+LUX	Mid 2010s	age: 0-17	Upper	4.208863
+LUX	Mid 2010s	age: 18-29	Lower	27.204293
+LUX	Mid 2010s	age: 18-29	Middle	65.801069
+LUX	Mid 2010s	age: 18-29	Upper	6.9946384
+LUX	Mid 2010s	age: 30-44	Lower	28.449087
+LUX	Mid 2010s	age: 30-44	Middle	63.817859
+LUX	Mid 2010s	age: 30-44	Upper	7.7330534
+LUX	Mid 2010s	age: 45-64	Lower	24.559734
+LUX	Mid 2010s	age: 45-64	Middle	65.882721
+LUX	Mid 2010s	age: 45-64	Upper	9.5575448
+LUX	Mid 2010s	age: 65 or older	Lower	16.010981
+LUX	Mid 2010s	age: 65 or older	Middle	74.791448
+LUX	Mid 2010s	age: 65 or older	Upper	9.1975707
+LUX	Mid 2010s	education: less than upper secondary	Lower	37.958488
+LUX	Mid 2010s	education: less than upper secondary	Middle	60.025858
+LUX	Mid 2010s	education: less than upper secondary	Upper	2.0156545
+LUX	Mid 2010s	education: tertiary	Lower	10.561427
+LUX	Mid 2010s	education: tertiary	Middle	68.361164
+LUX	Mid 2010s	education: tertiary	Upper	21.07741
+LUX	Mid 2010s	education: upper secondary	Lower	20.566573
+LUX	Mid 2010s	education: upper secondary	Middle	73.100082
+LUX	Mid 2010s	education: upper secondary	Upper	6.3333449
+LUX	Mid 2010s	family type: couple with children	Lower	28.245328
+LUX	Mid 2010s	family type: couple with children	Middle	65.013507
+LUX	Mid 2010s	family type: couple with children	Upper	6.7411645
+LUX	Mid 2010s	family type: couple with no children	Lower	15.094271
+LUX	Mid 2010s	family type: couple with no children	Middle	71.558765
+LUX	Mid 2010s	family type: couple with no children	Upper	13.346964
+LUX	Mid 2010s	family type: single adult	Lower	31.69864
+LUX	Mid 2010s	family type: single adult	Middle	61.309304
+LUX	Mid 2010s	family type: single adult	Upper	6.9920559
+LUX	Mid 2010s	family type: single parent	Lower	46.048719
+LUX	Mid 2010s	family type: single parent	Middle	51.850807
+LUX	Mid 2010s	family type: single parent	Upper	2.100474
+LVA	Mid 2000s	Population share by income class	Lower	35.230236
+LVA	Mid 2000s	Population share by income class	Middle	51.578102
+LVA	Mid 2000s	Population share by income class	Upper	13.191662
+LVA	Mid 2010s	Population share by income class	Lower	33.66322
+LVA	Mid 2010s	Population share by income class	Middle	54.339677
+LVA	Mid 2010s	Population share by income class	Upper	11.997103
+LVA	Mid 2010s	age: 0-17	Lower	29.232867
+LVA	Mid 2010s	age: 0-17	Middle	59.8106
+LVA	Mid 2010s	age: 0-17	Upper	10.956533
+LVA	Mid 2010s	age: 18-29	Lower	20.998279
+LVA	Mid 2010s	age: 18-29	Middle	62.973921
+LVA	Mid 2010s	age: 18-29	Upper	16.0278
+LVA	Mid 2010s	age: 30-44	Lower	24.549953
+LVA	Mid 2010s	age: 30-44	Middle	59.065998
+LVA	Mid 2010s	age: 30-44	Upper	16.384048
+LVA	Mid 2010s	age: 45-64	Lower	30.603916
+LVA	Mid 2010s	age: 45-64	Middle	57.420005
+LVA	Mid 2010s	age: 45-64	Upper	11.976079
+LVA	Mid 2010s	age: 65 or older	Lower	60.320554
+LVA	Mid 2010s	age: 65 or older	Middle	34.03617
+LVA	Mid 2010s	age: 65 or older	Upper	5.6432765
+LVA	Mid 2010s	education: less than upper secondary	Lower	56.863024
+LVA	Mid 2010s	education: less than upper secondary	Middle	39.834866
+LVA	Mid 2010s	education: less than upper secondary	Upper	3.3021102
+LVA	Mid 2010s	education: tertiary	Lower	17.970504
+LVA	Mid 2010s	education: tertiary	Middle	57.583021
+LVA	Mid 2010s	education: tertiary	Upper	24.446474
+LVA	Mid 2010s	education: upper secondary	Lower	37.542291
+LVA	Mid 2010s	education: upper secondary	Middle	54.166641
+LVA	Mid 2010s	education: upper secondary	Upper	8.2910681
+LVA	Mid 2010s	family type: couple with children	Lower	23.549375
+LVA	Mid 2010s	family type: couple with children	Middle	63.477564
+LVA	Mid 2010s	family type: couple with children	Upper	12.973061
+LVA	Mid 2010s	family type: couple with no children	Lower	28.913108
+LVA	Mid 2010s	family type: couple with no children	Middle	56.644541
+LVA	Mid 2010s	family type: couple with no children	Upper	14.44235
+LVA	Mid 2010s	family type: single adult	Lower	69.910327
+LVA	Mid 2010s	family type: single adult	Middle	25.45928
+LVA	Mid 2010s	family type: single adult	Upper	4.6303931
+LVA	Mid 2010s	family type: single parent	Lower	57.947676
+LVA	Mid 2010s	family type: single parent	Middle	39.354225
+LVA	Mid 2010s	family type: single parent	Upper	2.6980987
+MEX	Mid 2000s	Population share by income class	Lower	35.481854
+MEX	Mid 2000s	Population share by income class	Middle	44.79376
+MEX	Mid 2000s	Population share by income class	Upper	19.724385
+MEX	Mid 2010s	Population share by income class	Lower	35.967381
+MEX	Mid 2010s	Population share by income class	Middle	44.897129
+MEX	Mid 2010s	Population share by income class	Upper	19.13549
+MEX	Mid 2010s	age: 0-17	Lower	43.57526
+MEX	Mid 2010s	age: 0-17	Middle	43.711459
+MEX	Mid 2010s	age: 0-17	Upper	12.713281
+MEX	Mid 2010s	age: 18-29	Lower	29.80689
+MEX	Mid 2010s	age: 18-29	Middle	47.287426
+MEX	Mid 2010s	age: 18-29	Upper	22.905685
+MEX	Mid 2010s	age: 30-44	Lower	34.076456
+MEX	Mid 2010s	age: 30-44	Middle	45.808047
+MEX	Mid 2010s	age: 30-44	Upper	20.115496
+MEX	Mid 2010s	age: 45-64	Lower	28.464868
+MEX	Mid 2010s	age: 45-64	Middle	44.853239
+MEX	Mid 2010s	age: 45-64	Upper	26.681894
+MEX	Mid 2010s	age: 65 or older	Lower	41.22706
+MEX	Mid 2010s	age: 65 or older	Middle	40.95929
+MEX	Mid 2010s	age: 65 or older	Upper	17.81365
+MEX	Mid 2010s	education: less than upper secondary	Lower	41.237936
+MEX	Mid 2010s	education: less than upper secondary	Middle	46.995526
+MEX	Mid 2010s	education: less than upper secondary	Upper	11.766538
+MEX	Mid 2010s	education: tertiary	Lower	5.8313356
+MEX	Mid 2010s	education: tertiary	Middle	30.136251
+MEX	Mid 2010s	education: tertiary	Upper	64.032413
+MEX	Mid 2010s	education: upper secondary	Lower	16.276056
+MEX	Mid 2010s	education: upper secondary	Middle	49.585204
+MEX	Mid 2010s	education: upper secondary	Upper	34.13874
+MEX	Mid 2010s	family type: couple with children	Lower	37.261844
+MEX	Mid 2010s	family type: couple with children	Middle	44.521714
+MEX	Mid 2010s	family type: couple with children	Upper	18.216442
+MEX	Mid 2010s	family type: couple with no children	Lower	36.550853
+MEX	Mid 2010s	family type: couple with no children	Middle	39.216753
+MEX	Mid 2010s	family type: couple with no children	Upper	24.232395
+MEX	Mid 2010s	family type: single adult	Lower	31.694175
+MEX	Mid 2010s	family type: single adult	Middle	40.648868
+MEX	Mid 2010s	family type: single adult	Upper	27.656957
+MEX	Mid 2010s	family type: single parent	Lower	33.37486
+MEX	Mid 2010s	family type: single parent	Middle	49.479373
+MEX	Mid 2010s	family type: single parent	Upper	17.145767
+NLD	Mid 2000s	Population share by income class	Lower	24.3506237
+NLD	Mid 2000s	Population share by income class	Middle	69.190266
+NLD	Mid 2000s	Population share by income class	Upper	6.4591103
+NLD	Mid 2010s	Population share by income class	Lower	24.7768294
+NLD	Mid 2010s	Population share by income class	Middle	69.398378
+NLD	Mid 2010s	Population share by income class	Upper	5.8247933
+NLD	Mid 2010s	age: 0-17	Lower	26.211859
+NLD	Mid 2010s	age: 0-17	Middle	69.535272
+NLD	Mid 2010s	age: 0-17	Upper	4.2528693
+NLD	Mid 2010s	age: 18-29	Lower	30.324412
+NLD	Mid 2010s	age: 18-29	Middle	65.484516
+NLD	Mid 2010s	age: 18-29	Upper	4.1910727
+NLD	Mid 2010s	age: 30-44	Lower	20.605114
+NLD	Mid 2010s	age: 30-44	Middle	72.903825
+NLD	Mid 2010s	age: 30-44	Upper	6.491061
+NLD	Mid 2010s	age: 45-64	Lower	21.768098
+NLD	Mid 2010s	age: 45-64	Middle	69.500508
+NLD	Mid 2010s	age: 45-64	Upper	8.7313948
+NLD	Mid 2010s	age: 65 or older	Lower	27.911624
+NLD	Mid 2010s	age: 65 or older	Middle	68.473858
+NLD	Mid 2010s	age: 65 or older	Upper	3.6145181
+NLD	Mid 2010s	education: less than upper secondary	Lower	35.232862
+NLD	Mid 2010s	education: less than upper secondary	Middle	62.64398
+NLD	Mid 2010s	education: less than upper secondary	Upper	2.1231575
+NLD	Mid 2010s	education: tertiary	Lower	13.871821
+NLD	Mid 2010s	education: tertiary	Middle	73.662306
+NLD	Mid 2010s	education: tertiary	Upper	12.465873
+NLD	Mid 2010s	education: upper secondary	Lower	25.099478
+NLD	Mid 2010s	education: upper secondary	Middle	70.706792
+NLD	Mid 2010s	education: upper secondary	Upper	4.19373
+NLD	Mid 2010s	family type: couple with children	Lower	17.322351
+NLD	Mid 2010s	family type: couple with children	Middle	76.555055
+NLD	Mid 2010s	family type: couple with children	Upper	6.1225942
+NLD	Mid 2010s	family type: couple with no children	Lower	18.413214
+NLD	Mid 2010s	family type: couple with no children	Middle	72.636202
+NLD	Mid 2010s	family type: couple with no children	Upper	8.9505842
+NLD	Mid 2010s	family type: single adult	Lower	46.255801
+NLD	Mid 2010s	family type: single adult	Middle	51.160946
+NLD	Mid 2010s	family type: single adult	Upper	2.5832526
+NLD	Mid 2010s	family type: single parent	Lower	46.146444
+NLD	Mid 2010s	family type: single parent	Middle	53.16519
+NLD	Mid 2010s	family type: single parent	Upper	0.68836622
+NOR	Mid 2000s	Population share by income class	Lower	24.7315896
+NOR	Mid 2000s	Population share by income class	Middle	71.503719
+NOR	Mid 2000s	Population share by income class	Upper	3.7646918
+NOR	Mid 2010s	Population share by income class	Lower	25.0177778
+NOR	Mid 2010s	Population share by income class	Middle	70.831036
+NOR	Mid 2010s	Population share by income class	Upper	4.1511859
+NOR	Mid 2010s	age: 0-17	Lower	24.653391
+NOR	Mid 2010s	age: 0-17	Middle	72.435581
+NOR	Mid 2010s	age: 0-17	Upper	2.9110286
+NOR	Mid 2010s	age: 18-29	Lower	38.242287
+NOR	Mid 2010s	age: 18-29	Middle	58.836378
+NOR	Mid 2010s	age: 18-29	Upper	2.921336
+NOR	Mid 2010s	age: 30-44	Lower	22.626142
+NOR	Mid 2010s	age: 30-44	Middle	74.256931
+NOR	Mid 2010s	age: 30-44	Upper	3.1169276
+NOR	Mid 2010s	age: 45-64	Lower	15.134067
+NOR	Mid 2010s	age: 45-64	Middle	77.119612
+NOR	Mid 2010s	age: 45-64	Upper	7.7463215
+NOR	Mid 2010s	age: 65 or older	Lower	31.523343
+NOR	Mid 2010s	age: 65 or older	Middle	65.825403
+NOR	Mid 2010s	age: 65 or older	Upper	2.6512545
+NOR	Mid 2010s	education: less than upper secondary	Lower	37.18263
+NOR	Mid 2010s	education: less than upper secondary	Middle	60.832145
+NOR	Mid 2010s	education: less than upper secondary	Upper	1.9852252
+NOR	Mid 2010s	education: tertiary	Lower	14.511579
+NOR	Mid 2010s	education: tertiary	Middle	77.217286
+NOR	Mid 2010s	education: tertiary	Upper	8.2711353
+NOR	Mid 2010s	education: upper secondary	Lower	21.942558
+NOR	Mid 2010s	education: upper secondary	Middle	74.513448
+NOR	Mid 2010s	education: upper secondary	Upper	3.5439942
+NOR	Mid 2010s	family type: couple with children	Lower	13.703964
+NOR	Mid 2010s	family type: couple with children	Middle	81.601309
+NOR	Mid 2010s	family type: couple with children	Upper	4.6947268
+NOR	Mid 2010s	family type: couple with no children	Lower	12.095178
+NOR	Mid 2010s	family type: couple with no children	Middle	81.212433
+NOR	Mid 2010s	family type: couple with no children	Upper	6.6923886
+NOR	Mid 2010s	family type: single adult	Lower	55.604898
+NOR	Mid 2010s	family type: single adult	Middle	42.852979
+NOR	Mid 2010s	family type: single adult	Upper	1.5421227
+NOR	Mid 2010s	family type: single parent	Lower	49.627925
+NOR	Mid 2010s	family type: single parent	Middle	49.210134
+NOR	Mid 2010s	family type: single parent	Upper	1.1619407
+POL	Mid 2000s	Population share by income class	Lower	28.1386416
+POL	Mid 2000s	Population share by income class	Middle	62.566751
+POL	Mid 2000s	Population share by income class	Upper	9.2946077
+POL	Mid 2010s	Population share by income class	Lower	26.7473787
+POL	Mid 2010s	Population share by income class	Middle	65.53383
+POL	Mid 2010s	Population share by income class	Upper	7.7187913
+POL	Mid 2010s	age: 0-17	Lower	35.934239
+POL	Mid 2010s	age: 0-17	Middle	55.376313
+POL	Mid 2010s	age: 0-17	Upper	8.689448
+POL	Mid 2010s	age: 18-29	Lower	28.778956
+POL	Mid 2010s	age: 18-29	Middle	61.911468
+POL	Mid 2010s	age: 18-29	Upper	9.3095762
+POL	Mid 2010s	age: 30-44	Lower	26.108272
+POL	Mid 2010s	age: 30-44	Middle	61.2231
+POL	Mid 2010s	age: 30-44	Upper	12.668628
+POL	Mid 2010s	age: 45-64	Lower	28.118188
+POL	Mid 2010s	age: 45-64	Middle	62.610966
+POL	Mid 2010s	age: 45-64	Upper	9.2708459
+POL	Mid 2010s	age: 65 or older	Lower	27.235998
+POL	Mid 2010s	age: 65 or older	Middle	67.424622
+POL	Mid 2010s	age: 65 or older	Upper	5.3393801
+POL	Mid 2010s	education: less than upper secondary	Lower	45.869164
+POL	Mid 2010s	education: less than upper secondary	Middle	50.826879
+POL	Mid 2010s	education: less than upper secondary	Upper	3.3039568
+POL	Mid 2010s	education: tertiary	Lower	8.2531228
+POL	Mid 2010s	education: tertiary	Middle	66.743084
+POL	Mid 2010s	education: tertiary	Upper	25.003793
+POL	Mid 2010s	education: upper secondary	Lower	28.41064
+POL	Mid 2010s	education: upper secondary	Middle	65.242844
+POL	Mid 2010s	education: upper secondary	Upper	6.3465164
+POL	Mid 2010s	family type: couple with children	Lower	28.51985
+POL	Mid 2010s	family type: couple with children	Middle	61.572019
+POL	Mid 2010s	family type: couple with children	Upper	9.9081308
+POL	Mid 2010s	family type: couple with no children	Lower	16.165796
+POL	Mid 2010s	family type: couple with no children	Middle	70.529425
+POL	Mid 2010s	family type: couple with no children	Upper	13.304779
+POL	Mid 2010s	family type: single adult	Lower	41.882875
+POL	Mid 2010s	family type: single adult	Middle	52.511087
+POL	Mid 2010s	family type: single adult	Upper	5.606038
+POL	Mid 2010s	family type: single parent	Lower	49.056918
+POL	Mid 2010s	family type: single parent	Middle	47.367689
+POL	Mid 2010s	family type: single parent	Upper	3.5753935
+PRT	Mid 2000s	Population share by income class	Lower	32.163726
+PRT	Mid 2000s	Population share by income class	Middle	54.750153
+PRT	Mid 2000s	Population share by income class	Upper	13.08612
+PRT	Mid 2010s	Population share by income class	Lower	29.282139
+PRT	Mid 2010s	Population share by income class	Middle	60.107364
+PRT	Mid 2010s	Population share by income class	Upper	10.610497
+PRT	Mid 2010s	age: 0-17	Lower	32.167604
+PRT	Mid 2010s	age: 0-17	Middle	60.582445
+PRT	Mid 2010s	age: 0-17	Upper	7.2499507
+PRT	Mid 2010s	age: 18-29	Lower	27.219431
+PRT	Mid 2010s	age: 18-29	Middle	62.766154
+PRT	Mid 2010s	age: 18-29	Upper	10.014414
+PRT	Mid 2010s	age: 30-44	Lower	24.686385
+PRT	Mid 2010s	age: 30-44	Middle	66.778804
+PRT	Mid 2010s	age: 30-44	Upper	8.5348107
+PRT	Mid 2010s	age: 45-64	Lower	27.871632
+PRT	Mid 2010s	age: 45-64	Middle	59.268979
+PRT	Mid 2010s	age: 45-64	Upper	12.859389
+PRT	Mid 2010s	age: 65 or older	Lower	34.585045
+PRT	Mid 2010s	age: 65 or older	Middle	52.616636
+PRT	Mid 2010s	age: 65 or older	Upper	12.798319
+PRT	Mid 2010s	education: less than upper secondary	Lower	36.924994
+PRT	Mid 2010s	education: less than upper secondary	Middle	58.586705
+PRT	Mid 2010s	education: less than upper secondary	Upper	4.4883015
+PRT	Mid 2010s	education: tertiary	Lower	9.185648
+PRT	Mid 2010s	education: tertiary	Middle	56.928337
+PRT	Mid 2010s	education: tertiary	Upper	33.886015
+PRT	Mid 2010s	education: upper secondary	Lower	21.415627
+PRT	Mid 2010s	education: upper secondary	Middle	66.792558
+PRT	Mid 2010s	education: upper secondary	Upper	11.791815
+PRT	Mid 2010s	family type: couple with children	Lower	27.752758
+PRT	Mid 2010s	family type: couple with children	Middle	64.292769
+PRT	Mid 2010s	family type: couple with children	Upper	7.9544737
+PRT	Mid 2010s	family type: couple with no children	Lower	25.262242
+PRT	Mid 2010s	family type: couple with no children	Middle	61.198913
+PRT	Mid 2010s	family type: couple with no children	Upper	13.538844
+PRT	Mid 2010s	family type: single adult	Lower	46.895414
+PRT	Mid 2010s	family type: single adult	Middle	42.988013
+PRT	Mid 2010s	family type: single adult	Upper	10.116574
+PRT	Mid 2010s	family type: single parent	Lower	64.940515
+PRT	Mid 2010s	family type: single parent	Middle	33.779416
+PRT	Mid 2010s	family type: single parent	Upper	1.2800692
+RUS	Mid 2000s	Population share by income class	Lower	38.96634
+RUS	Mid 2000s	Population share by income class	Middle	42.492178
+RUS	Mid 2000s	Population share by income class	Upper	18.541482
+RUS	Mid 2010s	Population share by income class	Lower	33.564841
+RUS	Mid 2010s	Population share by income class	Middle	53.085608
+RUS	Mid 2010s	Population share by income class	Upper	13.349552
+RUS	Mid 2010s	age: 0-17	Lower	36.857247
+RUS	Mid 2010s	age: 0-17	Middle	51.356145
+RUS	Mid 2010s	age: 0-17	Upper	11.786608
+RUS	Mid 2010s	age: 18-29	Lower	29.517133
+RUS	Mid 2010s	age: 18-29	Middle	53.529986
+RUS	Mid 2010s	age: 18-29	Upper	16.952881
+RUS	Mid 2010s	age: 30-44	Lower	31.209569
+RUS	Mid 2010s	age: 30-44	Middle	53.653253
+RUS	Mid 2010s	age: 30-44	Upper	15.137178
+RUS	Mid 2010s	age: 45-64	Lower	32.030354
+RUS	Mid 2010s	age: 45-64	Middle	53.091046
+RUS	Mid 2010s	age: 45-64	Upper	14.8786
+RUS	Mid 2010s	age: 65 or older	Lower	39.508303
+RUS	Mid 2010s	age: 65 or older	Middle	53.933077
+RUS	Mid 2010s	age: 65 or older	Upper	6.5586194
+RUS	Mid 2010s	education: less than upper secondary	Lower	40.116893
+RUS	Mid 2010s	education: less than upper secondary	Middle	52.320561
+RUS	Mid 2010s	education: less than upper secondary	Upper	7.5625462
+RUS	Mid 2010s	education: tertiary	Lower	27.297305
+RUS	Mid 2010s	education: tertiary	Middle	54.547486
+RUS	Mid 2010s	education: tertiary	Upper	18.155209
+RUS	Mid 2010s	education: upper secondary	Lower	35.772912
+RUS	Mid 2010s	education: upper secondary	Middle	52.780738
+RUS	Mid 2010s	education: upper secondary	Upper	11.44635
+RUS	Mid 2010s	family type: couple with children	Lower	27.288393
+RUS	Mid 2010s	family type: couple with children	Middle	55.746331
+RUS	Mid 2010s	family type: couple with children	Upper	16.965276
+RUS	Mid 2010s	family type: couple with no children	Lower	27.764258
+RUS	Mid 2010s	family type: couple with no children	Middle	61.086333
+RUS	Mid 2010s	family type: couple with no children	Upper	11.149409
+RUS	Mid 2010s	family type: single adult	Lower	59.195405
+RUS	Mid 2010s	family type: single adult	Middle	35.979964
+RUS	Mid 2010s	family type: single adult	Upper	4.8246311
+RUS	Mid 2010s	family type: single parent	Lower	39.183995
+RUS	Mid 2010s	family type: single parent	Middle	49.160908
+RUS	Mid 2010s	family type: single parent	Upper	11.655097
+SVK	Mid 2000s	Population share by income class	Lower	25.0102038
+SVK	Mid 2000s	Population share by income class	Middle	70.265681
+SVK	Mid 2000s	Population share by income class	Upper	4.7241148
+SVK	Mid 2010s	Population share by income class	Lower	24.4126812
+SVK	Mid 2010s	Population share by income class	Middle	69.47418
+SVK	Mid 2010s	Population share by income class	Upper	6.1131385
+SVK	Mid 2010s	age: 0-17	Lower	33.664299
+SVK	Mid 2010s	age: 0-17	Middle	62.862361
+SVK	Mid 2010s	age: 0-17	Upper	3.47334
+SVK	Mid 2010s	age: 18-29	Lower	18.60609
+SVK	Mid 2010s	age: 18-29	Middle	72.668702
+SVK	Mid 2010s	age: 18-29	Upper	8.7252079
+SVK	Mid 2010s	age: 30-44	Lower	23.516898
+SVK	Mid 2010s	age: 30-44	Middle	69.892652
+SVK	Mid 2010s	age: 30-44	Upper	6.5904501
+SVK	Mid 2010s	age: 45-64	Lower	19.766877
+SVK	Mid 2010s	age: 45-64	Middle	71.918079
+SVK	Mid 2010s	age: 45-64	Upper	8.3150445
+SVK	Mid 2010s	age: 65 or older	Lower	29.425581
+SVK	Mid 2010s	age: 65 or older	Middle	68.804317
+SVK	Mid 2010s	age: 65 or older	Upper	1.7701026
+SVK	Mid 2010s	education: less than upper secondary	Lower	40.919019
+SVK	Mid 2010s	education: less than upper secondary	Middle	57.054911
+SVK	Mid 2010s	education: less than upper secondary	Upper	2.0260703
+SVK	Mid 2010s	education: tertiary	Lower	10.155145
+SVK	Mid 2010s	education: tertiary	Middle	75.511035
+SVK	Mid 2010s	education: tertiary	Upper	14.33382
+SVK	Mid 2010s	education: upper secondary	Lower	22.296907
+SVK	Mid 2010s	education: upper secondary	Middle	72.377458
+SVK	Mid 2010s	education: upper secondary	Upper	5.3256352
+SVK	Mid 2010s	family type: couple with children	Lower	21.711476
+SVK	Mid 2010s	family type: couple with children	Middle	71.345491
+SVK	Mid 2010s	family type: couple with children	Upper	6.9430327
+SVK	Mid 2010s	family type: couple with no children	Lower	16.065822
+SVK	Mid 2010s	family type: couple with no children	Middle	78.257922
+SVK	Mid 2010s	family type: couple with no children	Upper	5.6762568
+SVK	Mid 2010s	family type: single adult	Lower	51.974665
+SVK	Mid 2010s	family type: single adult	Middle	46.525169
+SVK	Mid 2010s	family type: single adult	Upper	1.500166
+SVK	Mid 2010s	family type: single parent	Lower	26.948585
+SVK	Mid 2010s	family type: single parent	Middle	67.534955
+SVK	Mid 2010s	family type: single parent	Upper	5.5164602
+SVN	Mid 2000s	Population share by income class	Lower	24.9023189
+SVN	Mid 2000s	Population share by income class	Middle	71.853599
+SVN	Mid 2000s	Population share by income class	Upper	3.2440819
+SVN	Mid 2010s	Population share by income class	Lower	27.806591
+SVN	Mid 2010s	Population share by income class	Middle	66.775332
+SVN	Mid 2010s	Population share by income class	Upper	5.4180764
+SVN	Mid 2010s	age: 0-17	Lower	27.999283
+SVN	Mid 2010s	age: 0-17	Middle	67.859255
+SVN	Mid 2010s	age: 0-17	Upper	4.1414614
+SVN	Mid 2010s	age: 18-29	Lower	25.723073
+SVN	Mid 2010s	age: 18-29	Middle	68.312562
+SVN	Mid 2010s	age: 18-29	Upper	5.9643645
+SVN	Mid 2010s	age: 30-44	Lower	25.889928
+SVN	Mid 2010s	age: 30-44	Middle	68.807282
+SVN	Mid 2010s	age: 30-44	Upper	5.3027901
+SVN	Mid 2010s	age: 45-64	Lower	26.234515
+SVN	Mid 2010s	age: 45-64	Middle	66.039515
+SVN	Mid 2010s	age: 45-64	Upper	7.72597
+SVN	Mid 2010s	age: 65 or older	Lower	34.462184
+SVN	Mid 2010s	age: 65 or older	Middle	63.047478
+SVN	Mid 2010s	age: 65 or older	Upper	2.490338
+SVN	Mid 2010s	education: less than upper secondary	Lower	45.548227
+SVN	Mid 2010s	education: less than upper secondary	Middle	53.254614
+SVN	Mid 2010s	education: less than upper secondary	Upper	1.1971589
+SVN	Mid 2010s	education: tertiary	Lower	12.610936
+SVN	Mid 2010s	education: tertiary	Middle	71.133487
+SVN	Mid 2010s	education: tertiary	Upper	16.255577
+SVN	Mid 2010s	education: upper secondary	Lower	27.323691
+SVN	Mid 2010s	education: upper secondary	Middle	69.420236
+SVN	Mid 2010s	education: upper secondary	Upper	3.2560733
+SVN	Mid 2010s	family type: couple with children	Lower	20.305147
+SVN	Mid 2010s	family type: couple with children	Middle	72.847803
+SVN	Mid 2010s	family type: couple with children	Upper	6.8470501
+SVN	Mid 2010s	family type: couple with no children	Lower	23.917058
+SVN	Mid 2010s	family type: couple with no children	Middle	71.077543
+SVN	Mid 2010s	family type: couple with no children	Upper	5.0053993
+SVN	Mid 2010s	family type: single adult	Lower	64.581822
+SVN	Mid 2010s	family type: single adult	Middle	33.55761
+SVN	Mid 2010s	family type: single adult	Upper	1.8605675
+SVN	Mid 2010s	family type: single parent	Lower	37.931579
+SVN	Mid 2010s	family type: single parent	Middle	59.371271
+SVN	Mid 2010s	family type: single parent	Upper	2.6971499
+SWE	Mid 2000s	Population share by income class	Lower	26.2002975
+SWE	Mid 2000s	Population share by income class	Middle	70.10347
+SWE	Mid 2000s	Population share by income class	Upper	3.6962331
+SWE	Mid 2010s	Population share by income class	Lower	29.808257
+SWE	Mid 2010s	Population share by income class	Middle	65.154449
+SWE	Mid 2010s	Population share by income class	Upper	5.037294
+SWE	Mid 2010s	age: 0-17	Lower	32.352967
+SWE	Mid 2010s	age: 0-17	Middle	64.628278
+SWE	Mid 2010s	age: 0-17	Upper	3.0187547
+SWE	Mid 2010s	age: 18-29	Lower	35.087668
+SWE	Mid 2010s	age: 18-29	Middle	61.918983
+SWE	Mid 2010s	age: 18-29	Upper	2.9933491
+SWE	Mid 2010s	age: 30-44	Lower	24.437205
+SWE	Mid 2010s	age: 30-44	Middle	72.012148
+SWE	Mid 2010s	age: 30-44	Upper	3.5506473
+SWE	Mid 2010s	age: 45-64	Lower	19.915629
+SWE	Mid 2010s	age: 45-64	Middle	69.358836
+SWE	Mid 2010s	age: 45-64	Upper	10.725535
+SWE	Mid 2010s	age: 65 or older	Lower	40.547207
+SWE	Mid 2010s	age: 65 or older	Middle	56.347023
+SWE	Mid 2010s	age: 65 or older	Upper	3.1057699
+SWE	Mid 2010s	education: less than upper secondary	Lower	47.819595
+SWE	Mid 2010s	education: less than upper secondary	Middle	50.130918
+SWE	Mid 2010s	education: less than upper secondary	Upper	2.0494872
+SWE	Mid 2010s	education: tertiary	Lower	20.015945
+SWE	Mid 2010s	education: tertiary	Middle	71.204863
+SWE	Mid 2010s	education: tertiary	Upper	8.7791929
+SWE	Mid 2010s	education: upper secondary	Lower	24.16872
+SWE	Mid 2010s	education: upper secondary	Middle	70.478991
+SWE	Mid 2010s	education: upper secondary	Upper	5.352289
+SWE	Mid 2010s	family type: couple with children	Lower	24.21668
+SWE	Mid 2010s	family type: couple with children	Middle	71.701232
+SWE	Mid 2010s	family type: couple with children	Upper	4.0820873
+SWE	Mid 2010s	family type: couple with no children	Lower	15.460523
+SWE	Mid 2010s	family type: couple with no children	Middle	75.325433
+SWE	Mid 2010s	family type: couple with no children	Upper	9.2140445
+SWE	Mid 2010s	family type: single adult	Lower	55.899107
+SWE	Mid 2010s	family type: single adult	Middle	43.151336
+SWE	Mid 2010s	family type: single adult	Upper	0.94955715
+SWE	Mid 2010s	family type: single parent	Lower	65.947512
+SWE	Mid 2010s	family type: single parent	Middle	34.052488
+SWE	Mid 2010s	family type: single parent	Upper	
+TUR	Mid 2000s	Population share by income class	Lower	33.760435
+TUR	Mid 2000s	Population share by income class	Middle	50.344932
+TUR	Mid 2000s	Population share by income class	Upper	15.894633
+TUR	Mid 2010s	Population share by income class	Lower	32.570028
+TUR	Mid 2010s	Population share by income class	Middle	52.940703
+TUR	Mid 2010s	Population share by income class	Upper	14.489269
+USA	Mid 2000s	Population share by income class	Lower	34.529599
+USA	Mid 2000s	Population share by income class	Middle	52.831748
+USA	Mid 2000s	Population share by income class	Upper	12.638653
+USA	Mid 2010s	Population share by income class	Lower	34.759168
+USA	Mid 2010s	Population share by income class	Middle	51.227375
+USA	Mid 2010s	Population share by income class	Upper	14.013457
+USA	Mid 2010s	age: 0-17	Lower	41.348997
+USA	Mid 2010s	age: 0-17	Middle	48.91309
+USA	Mid 2010s	age: 0-17	Upper	9.7379138
+USA	Mid 2010s	age: 18-29	Lower	37.800393
+USA	Mid 2010s	age: 18-29	Middle	50.888597
+USA	Mid 2010s	age: 18-29	Upper	11.31101
+USA	Mid 2010s	age: 30-44	Lower	31.350078
+USA	Mid 2010s	age: 30-44	Middle	54.360243
+USA	Mid 2010s	age: 30-44	Upper	14.289679
+USA	Mid 2010s	age: 45-64	Lower	27.945929
+USA	Mid 2010s	age: 45-64	Middle	52.03741
+USA	Mid 2010s	age: 45-64	Upper	20.016662
+USA	Mid 2010s	age: 65 or older	Lower	39.294159
+USA	Mid 2010s	age: 65 or older	Middle	48.036483
+USA	Mid 2010s	age: 65 or older	Upper	12.669358
+USA	Mid 2010s	education: less than upper secondary	Lower	62.363137
+USA	Mid 2010s	education: less than upper secondary	Middle	34.580876
+USA	Mid 2010s	education: less than upper secondary	Upper	3.0559868
+USA	Mid 2010s	education: tertiary	Lower	17.697125
+USA	Mid 2010s	education: tertiary	Middle	54.991108
+USA	Mid 2010s	education: tertiary	Upper	27.311767
+USA	Mid 2010s	education: upper secondary	Lower	37.948953
+USA	Mid 2010s	education: upper secondary	Middle	53.189236
+USA	Mid 2010s	education: upper secondary	Upper	8.8618113
+USA	Mid 2010s	family type: couple with children	Lower	28.00675
+USA	Mid 2010s	family type: couple with children	Middle	56.776075
+USA	Mid 2010s	family type: couple with children	Upper	15.217175
+USA	Mid 2010s	family type: couple with no children	Lower	23.774292
+USA	Mid 2010s	family type: couple with no children	Middle	54.835856
+USA	Mid 2010s	family type: couple with no children	Upper	21.389851
+USA	Mid 2010s	family type: single adult	Lower	50.746091
+USA	Mid 2010s	family type: single adult	Middle	40.420068
+USA	Mid 2010s	family type: single adult	Upper	8.8338408
+USA	Mid 2010s	family type: single parent	Lower	61.480882
+USA	Mid 2010s	family type: single parent	Middle	34.894461
+USA	Mid 2010s	family type: single parent	Upper	3.6246571
+ZAF	Mid 2000s	Population share by income class	Lower	38.66005
+ZAF	Mid 2000s	Population share by income class	Middle	32.324938
+ZAF	Mid 2000s	Population share by income class	Upper	29.015011
+ZAF	Mid 2010s	Population share by income class	Lower	38.689601
+ZAF	Mid 2010s	Population share by income class	Middle	33.488113
+ZAF	Mid 2010s	Population share by income class	Upper	27.822286
+ZAF	Mid 2010s	age: 0-17	Lower	47.342912
+ZAF	Mid 2010s	age: 0-17	Middle	31.440967
+ZAF	Mid 2010s	age: 0-17	Upper	21.21612
+ZAF	Mid 2010s	age: 18-29	Lower	39.375812
+ZAF	Mid 2010s	age: 18-29	Middle	35.727312
+ZAF	Mid 2010s	age: 18-29	Upper	24.896876
+ZAF	Mid 2010s	age: 30-44	Lower	30.706982
+ZAF	Mid 2010s	age: 30-44	Middle	33.999902
+ZAF	Mid 2010s	age: 30-44	Upper	35.293117
+ZAF	Mid 2010s	age: 45-64	Lower	31.741346
+ZAF	Mid 2010s	age: 45-64	Middle	31.483803
+ZAF	Mid 2010s	age: 45-64	Upper	36.774851
+ZAF	Mid 2010s	age: 65 or older	Lower	29.928853
+ZAF	Mid 2010s	age: 65 or older	Middle	41.942732
+ZAF	Mid 2010s	age: 65 or older	Upper	28.128415
+ZAF	Mid 2010s	education: less than upper secondary	Lower	42.673439
+ZAF	Mid 2010s	education: less than upper secondary	Middle	39.428563
+ZAF	Mid 2010s	education: less than upper secondary	Upper	17.897998
+ZAF	Mid 2010s	education: tertiary	Lower	4.6605795
+ZAF	Mid 2010s	education: tertiary	Middle	4.8571955
+ZAF	Mid 2010s	education: tertiary	Upper	90.482225
+ZAF	Mid 2010s	education: upper secondary	Lower	20.161586
+ZAF	Mid 2010s	education: upper secondary	Middle	28.937974
+ZAF	Mid 2010s	education: upper secondary	Upper	50.90044
+ZAF	Mid 2010s	family type: couple with children	Lower	27.231165
+ZAF	Mid 2010s	family type: couple with children	Middle	32.612022
+ZAF	Mid 2010s	family type: couple with children	Upper	40.156814
+ZAF	Mid 2010s	family type: couple with no children	Lower	24.199299
+ZAF	Mid 2010s	family type: couple with no children	Middle	38.492196
+ZAF	Mid 2010s	family type: couple with no children	Upper	37.308505
+ZAF	Mid 2010s	family type: single adult	Lower	23.861461
+ZAF	Mid 2010s	family type: single adult	Middle	34.605358
+ZAF	Mid 2010s	family type: single adult	Upper	41.533181
+ZAF	Mid 2010s	family type: single parent	Lower	51.93649
+ZAF	Mid 2010s	family type: single parent	Middle	33.841042
+ZAF	Mid 2010s	family type: single parent	Upper	14.222468
+AUS	Mid 2010s	Median income	..	27636.814
+AUT	Mid 2010s	Median income	..	27576.449
+BEL	Mid 2010s	Median income	..	24914.371
+CAN	Mid 2010s	Median income	..	29319.381
+CHE	Mid 2010s	Median income	..	32885.648
+CHL	Mid 2010s	Median income	..	8193.5146
+CZE	Mid 2010s	Median income	..	13666.433
+DEU	Mid 2010s	Median income	..	23814.107
+DNK	Mid 2010s	Median income	..	26312.881
+ESP	Mid 2010s	Median income	..	17214.08
+EST	Mid 2010s	Median income	..	11544.262
+FIN	Mid 2010s	Median income	..	24028.559
+FRA	Mid 2010s	Median income	..	24230.906
+GBR	Mid 2010s	Median income	..	21141.262
+GRC	Mid 2010s	Median income	..	10525.129
+HUN	Mid 2010s	Median income	..	11609.454
+IRL	Mid 2010s	Median income	..	24845.945
+ISL	Mid 2010s	Median income	..	23659.8286658704
+ISR	Mid 2010s	Median income	..	18677.994
+ITA	Mid 2010s	Median income	..	16274.383
+KOR	Mid 2010s	Median income	..	20870.467
+LTU	Mid 2010s	Median income	..	12076.809
+LUX	Mid 2010s	Median income	..	35309.965
+LVA	Mid 2010s	Median income	..	12279.289
+MEX	Mid 2010s	Median income	..	5009.6235
+NLD	Mid 2010s	Median income	..	23741.445
+NOR	Mid 2010s	Median income	..	35205.621
+POL	Mid 2010s	Median income	..	13229.172
+PRT	Mid 2010s	Median income	..	13139.103
+SVK	Mid 2010s	Median income	..	12585.978
+SVN	Mid 2010s	Median income	..	17665.705
+SWE	Mid 2010s	Median income	..	26178.701
+TUR	Mid 2010s	Median income	..	9620.6582
+USA	Mid 2010s	Median income	..	31220.984
+BRA	Mid 2010s	Median income	..	6623.4272
+CHN	Mid 2010s	Median income	..	6483.3242
+IND	Mid 2010s	Median income	..	2208.614
+RUS	Mid 2010s	Median income	..	17078.301
+ZAF	Mid 2010s	Median income	..	3473.3208
+AUS	Mid 2010s	Middle class lower threshold	..	20727.6105
+AUT	Mid 2010s	Middle class lower threshold	..	20682.33675
+BEL	Mid 2010s	Middle class lower threshold	..	18685.77825
+CAN	Mid 2010s	Middle class lower threshold	..	21989.53575
+CHE	Mid 2010s	Middle class lower threshold	..	24664.236
+CHL	Mid 2010s	Middle class lower threshold	..	6145.13595
+CZE	Mid 2010s	Middle class lower threshold	..	10249.82475
+DEU	Mid 2010s	Middle class lower threshold	..	17860.58025
+DNK	Mid 2010s	Middle class lower threshold	..	19734.66075
+ESP	Mid 2010s	Middle class lower threshold	..	12910.56
+EST	Mid 2010s	Middle class lower threshold	..	8658.1965
+FIN	Mid 2010s	Middle class lower threshold	..	18021.41925
+FRA	Mid 2010s	Middle class lower threshold	..	18173.1795
+GBR	Mid 2010s	Middle class lower threshold	..	15855.9465
+GRC	Mid 2010s	Middle class lower threshold	..	7893.84675
+HUN	Mid 2010s	Middle class lower threshold	..	8707.0905
+IRL	Mid 2010s	Middle class lower threshold	..	18634.45875
+ISL	Mid 2010s	Middle class lower threshold	..	17744.8714994028
+ISR	Mid 2010s	Middle class lower threshold	..	14008.4955
+ITA	Mid 2010s	Middle class lower threshold	..	12205.78725
+KOR	Mid 2010s	Middle class lower threshold	..	15652.85025
+LTU	Mid 2010s	Middle class lower threshold	..	9057.60675
+LUX	Mid 2010s	Middle class lower threshold	..	26482.47375
+LVA	Mid 2010s	Middle class lower threshold	..	9209.46675
+MEX	Mid 2010s	Middle class lower threshold	..	3757.217625
+NLD	Mid 2010s	Middle class lower threshold	..	17806.08375
+NOR	Mid 2010s	Middle class lower threshold	..	26404.21575
+POL	Mid 2010s	Middle class lower threshold	..	9921.879
+PRT	Mid 2010s	Middle class lower threshold	..	9854.32725
+SVK	Mid 2010s	Middle class lower threshold	..	9439.4835
+SVN	Mid 2010s	Middle class lower threshold	..	13249.27875
+SWE	Mid 2010s	Middle class lower threshold	..	19634.02575
+TUR	Mid 2010s	Middle class lower threshold	..	7215.49365
+USA	Mid 2010s	Middle class lower threshold	..	23415.738
+BRA	Mid 2010s	Middle class lower threshold	..	4967.5704
+CHN	Mid 2010s	Middle class lower threshold	..	4862.49315
+IND	Mid 2010s	Middle class lower threshold	..	1656.4605
+RUS	Mid 2010s	Middle class lower threshold	..	12808.72575
+ZAF	Mid 2010s	Middle class lower threshold	..	2604.9906
+AUS	Mid 2010s	Middle class upper threshold	..	55273.628
+AUT	Mid 2010s	Middle class upper threshold	..	55152.898
+BEL	Mid 2010s	Middle class upper threshold	..	49828.742
+CAN	Mid 2010s	Middle class upper threshold	..	58638.762
+CHE	Mid 2010s	Middle class upper threshold	..	65771.296
+CHL	Mid 2010s	Middle class upper threshold	..	16387.0292
+CZE	Mid 2010s	Middle class upper threshold	..	27332.866
+DEU	Mid 2010s	Middle class upper threshold	..	47628.214
+DNK	Mid 2010s	Middle class upper threshold	..	52625.762
+ESP	Mid 2010s	Middle class upper threshold	..	34428.16
+EST	Mid 2010s	Middle class upper threshold	..	23088.524
+FIN	Mid 2010s	Middle class upper threshold	..	48057.118
+FRA	Mid 2010s	Middle class upper threshold	..	48461.812
+GBR	Mid 2010s	Middle class upper threshold	..	42282.524
+GRC	Mid 2010s	Middle class upper threshold	..	21050.258
+HUN	Mid 2010s	Middle class upper threshold	..	23218.908
+IRL	Mid 2010s	Middle class upper threshold	..	49691.89
+ISL	Mid 2010s	Middle class upper threshold	..	47319.6573317409
+ISR	Mid 2010s	Middle class upper threshold	..	37355.988
+ITA	Mid 2010s	Middle class upper threshold	..	32548.766
+KOR	Mid 2010s	Middle class upper threshold	..	41740.934
+LTU	Mid 2010s	Middle class upper threshold	..	24153.618
+LUX	Mid 2010s	Middle class upper threshold	..	70619.93
+LVA	Mid 2010s	Middle class upper threshold	..	24558.578
+MEX	Mid 2010s	Middle class upper threshold	..	10019.247
+NLD	Mid 2010s	Middle class upper threshold	..	47482.89
+NOR	Mid 2010s	Middle class upper threshold	..	70411.242
+POL	Mid 2010s	Middle class upper threshold	..	26458.344
+PRT	Mid 2010s	Middle class upper threshold	..	26278.206
+SVK	Mid 2010s	Middle class upper threshold	..	25171.956
+SVN	Mid 2010s	Middle class upper threshold	..	35331.41
+SWE	Mid 2010s	Middle class upper threshold	..	52357.402
+TUR	Mid 2010s	Middle class upper threshold	..	19241.3164
+USA	Mid 2010s	Middle class upper threshold	..	62441.968
+BRA	Mid 2010s	Middle class upper threshold	..	13246.8544
+CHN	Mid 2010s	Middle class upper threshold	..	12966.6484
+IND	Mid 2010s	Middle class upper threshold	..	4417.228
+RUS	Mid 2010s	Middle class upper threshold	..	34156.602
+ZAF	Mid 2010s	Middle class upper threshold	..	6946.6416
