@@ -14,76 +14,82 @@
 </head>
 
 <body id="page">
-<div id="selector">
-    <div class="selTitle">Country:</div>
-    <select class="dropdownSel" id="ctrSel" onchange="update()">
-        <option value="AUS" >Australia</option>
-        <option value="AUT">Austria</option>
-        <option value="BEL">Belgium</option>
-        <option value="BRA">Brazil</option>
-        <option value="CAN">Canada</option>
-        <option value="CHN">China</option>
-        <option value="CHL">Chile</option>
-        <option value="CZE">Czech Republic</option>
-        <option value="DNK">Denmark</option>
-        <option value="EST">Estonia</option>
-        <option value="FIN">Finland</option>
-        <option value="FRA">France</option>
-        <option value="DEU">Germany</option>
-        <option value="GRC">Greece</option>
-        <option value="HUN">Hungary</option>
-        <option value="ISL">Iceland</option>
-        <option value="IND">India</option>
-        <option value="IRL">Ireland</option>
-        <option value="ISR">Israel</option>
-        <option value="ITA">Italy</option>
-        <option value="JPN">Japan</option>
-        <option value="KOR">Korea</option>
-        <option value="LVA">Latvia</option>
-        <option value="LTU">Lithuania</option>
-        <option value="LUX">Luxembourg</option>
-        <option value="MEX">Mexico</option>
-        <option value="NLD">Netherlands</option>
-        <option value="NOR">Norway</option>
-        <option value="POL">Poland</option>
-        <option value="PRT">Portugal</option>
-        <option value="RUS">Russian Federation</option>
-        <option value="SVK">Slovakia</option>
-        <option value=SVN>Slovenia</option>
-        <option value="ZAF">South Africa</option>
-        <option value="ESP">Spain</option>
-        <option value="SWE">Sweden</option>
-        <option value="CHE">Switzerland</option>
-        <option value="TUR">Turkey</option>
-        <option value="GBR">United Kingdom</option>
-        <option value="USA">United States</option>
-    </select>
-    <!--<div class="selTitle">Your familly structure:</div>
-    <select class="dropdownSel" id="criSelector" onchange="update()">
-            <option value="Population share by income class">-</option>
-            <option value="family type: single adult">family type:single adult</option>
-            <option value="family type: single parent">family type:single parent</option>
-            <option value="family type: couple with children">family type:couple with children</option>
-            <option value="family type: couple with no children">family type:couple with no children</option>
-        </select>-->
-    <div class="selTitle">How many persons leave in your household:</div>
-    <div class="rangeslider">
-        <input type="range" min="1" max="10" value="1" class="myslider" id="sliderRange">
-        <p id="rangehhs">Value: <span id="householdSize"></span></p>
+
+<div id="wrapper">
+    <div id="selector">
+        <h1 >See where you belong by entering your details!</h1>
+        <div class="selTitle">Country:</div>
+        <select class="dropdownSel" id="ctrSel" onchange="update()">
+            <option value="AUS" >Australia</option>
+            <option value="AUT">Austria</option>
+            <option value="BEL">Belgium</option>
+            <option value="BRA">Brazil</option>
+            <option value="CAN">Canada</option>
+            <option value="CHN">China</option>
+            <option value="CHL">Chile</option>
+            <option value="CZE">Czech Republic</option>
+            <option value="DNK">Denmark</option>
+            <option value="EST">Estonia</option>
+            <option value="FIN">Finland</option>
+            <option value="FRA">France</option>
+            <option value="DEU">Germany</option>
+            <option value="GRC">Greece</option>
+            <option value="HUN">Hungary</option>
+            <option value="ISL">Iceland</option>
+            <option value="IND">India</option>
+            <option value="IRL">Ireland</option>
+            <option value="ISR">Israel</option>
+            <option value="ITA">Italy</option>
+            <option value="JPN">Japan</option>
+            <option value="KOR">Korea</option>
+            <option value="LVA">Latvia</option>
+            <option value="LTU">Lithuania</option>
+            <option value="LUX">Luxembourg</option>
+            <option value="MEX">Mexico</option>
+            <option value="NLD">Netherlands</option>
+            <option value="NOR">Norway</option>
+            <option value="POL">Poland</option>
+            <option value="PRT">Portugal</option>
+            <option value="RUS">Russian Federation</option>
+            <option value="SVK">Slovakia</option>
+            <option value=SVN>Slovenia</option>
+            <option value="ZAF">South Africa</option>
+            <option value="ESP">Spain</option>
+            <option value="SWE">Sweden</option>
+            <option value="CHE">Switzerland</option>
+            <option value="TUR">Turkey</option>
+            <option value="GBR">United Kingdom</option>
+            <option value="USA">United States</option>
+        </select>
+        <!--<div class="selTitle">Your familly structure:</div>
+        <select class="dropdownSel" id="criSelector" onchange="update()">
+                <option value="Population share by income class">-</option>
+                <option value="family type: single adult">family type:single adult</option>
+                <option value="family type: single parent">family type:single parent</option>
+                <option value="family type: couple with children">family type:couple with children</option>
+                <option value="family type: couple with no children">family type:couple with no children</option>
+            </select>-->
+        <div class="selTitle">How many persons leave in your household:</div>
+        <div class="rangeslider">
+            <input type="range" min="1" max="10" value="1" class="myslider" id="sliderRange">
+            <p id="rangehhs">Value: <span id="householdSize"></span></p>
+        </div>
+        <div class="selTitle">Your income: <i>(in national currency)</i></div>
+        <form>
+            <label class="radio"><input type="radio"  id="yearlyRadio" name="incomeCalc" value="1" onclick="update()" checked> Yearly</label>
+            <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12" onclick="update()" > Monthly</label>
+        </form>
+        <input id="incomeSel" type="text" value="your income" onchange="update()"><br>
     </div>
-    <div class="selTitle">Your income: <i>(in national currency)</i></div>
-    <form>
-    <label class="radio"><input type="radio"  id="yearlyRadio" name="incomeCalc" value="1" checked> Yearly</label>
-        <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12"> Monthly</label>
-    </form>
-    <input id="incomeSel" type="text" value="your income" onchange="update()"><br>
+    <div id="chart">
+        <br>
+        <div id="year2010s">Mid 2010s</div>
+        <div id="chart2010s"></div>
+        <br>
+        <div id="chart2000s"></div>
+        <div id="year2000s">Mid 2000s</div>
+    </div>
 </div>
-<br>
-<div id="year2010s">Mid 2010s</div>
-<div id="chart2010s"></div>
-<br>
-<div id="chart2000s"></div>
-<div id="year2000s">Mid 2000s</div>
 </body>
 <script>
 
@@ -146,6 +152,7 @@
         update();
     } 
 
+    document.getElementById("sliderRange")
 </script>
 </html>
 
