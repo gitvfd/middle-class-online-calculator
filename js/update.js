@@ -9,6 +9,9 @@ function update2010(){
     var crtSelected = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].value
     //var criSelected = document.getElementById("criSelector").options[document.getElementById("criSelector").selectedIndex].value
     var householdSize = document.getElementById("householdSize").innerHTML;
+    var hhFactor = 1;
+    if (householdSize!=1)
+        hhFactor = Math.sqrt(parseFloat(householdSize));
 
     var incomeTime = '';
     if (document.getElementById('yearlyRadio').checked) {
@@ -17,17 +20,17 @@ function update2010(){
         incomeTime = document.getElementById('monthlyRadio').value
     }
 
-    console.log(incomeTime)
-
     //if (criSelected=="-")
     //fixed value so far while we decide if we need to pick something else.
         criSelected = "Population share by income class";
+    var incomeSelected = document.getElementById("incomeSel").value;
+    if (incomeSelected != "your income")
+            incomeSelected = incomeTime*document.getElementById("incomeSel").value
 
-    var incomeSelected = incomeTime*document.getElementById("incomeSel").value
     var chartData2010s = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == criSelected && d.Period == "Mid 2010s"})
     
-    var threshold_low = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_lower_threshold_NC
-    var threshold_up = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_upper_threshold_NC
+    var threshold_low = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_lower_threshold_NC;
+    var threshold_up = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_upper_threshold_NC;
     
     var chartCanvas= svg2010s.append("g")
         .attr("x", margin/2)
@@ -85,14 +88,14 @@ function update2010(){
             .attr("class", "annotText")
             .attr("x", x(chartData2010s[0].Value) - 20)
             .attr("y", height / 3 + 55)
-            .text(d3.format("(.0f")(threshold_low * Math.sqrt(parseFloat(householdSize))))
+            .text(d3.format("(.0f")(threshold_low / incomeTime * hhFactor))
 
         chartCanvas
             .append("text")
             .attr("class", "annotText")
             .attr("x", x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value)) - 20)
             .attr("y", height / 3 +55)
-            .text(d3.format("(.0f")(threshold_up * Math.sqrt(parseFloat(householdSize))))
+            .text(d3.format("(.0f")(threshold_up / incomeTime * hhFactor))
 
         ////////////////
         // Median Income    
@@ -117,7 +120,7 @@ function update2010(){
                 }
             })
             .attr("y", height / 3 +60)
-            .text(d3.format("(.0f")(medianIncome * Math.sqrt(parseFloat(householdSize))) )    
+            .text(d3.format("(.0f")(medianIncome / incomeTime * hhFactor) )    
 
 
 
@@ -185,18 +188,25 @@ function update2010(){
         chartCanvas.append("image")
             .attr("xlink:href", "icon.svg")
             .attr("x", function () {
-                if (parseFloat(incomeSelected) < parseFloat(threshold_low)) {
-                    var M_I = x((parseFloat(incomeSelected) * (parseFloat(chartData2010s[0].Value))) / parseFloat(threshold_low))
-                    return M_I-30;
-                }
-                else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) || parseFloat(incomeSelected) <= parseFloat(threshold_up)) {
-                    var M_I = x(parseFloat(chartData2010s[0].Value)) + x((parseFloat(incomeSelected) - parseFloat(threshold_low)) * (parseFloat(chartData2010s[1].Value)) / (parseFloat(threshold_up) - parseFloat(threshold_low)));
-                    return M_I - 30;
+                if (parseFloat(incomeSelected) < parseFloat(threshold_low) * hhFactor) {
+                        var M_I = x((parseFloat(incomeSelected) * (parseFloat(chartData2010s[0].Value))) / (parseFloat(threshold_low)*hhFactor))
+                        return M_I-30;
+                    }
+                else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) * hhFactor && parseFloat(incomeSelected) <= parseFloat(threshold_up) * hhFactor) {
 
-                }
-                else {
-                    return x(parseFloat(threshold_up))
-                }
+                    var M_I = x(parseFloat(chartData2010s[0].Value)) + x((parseFloat(incomeSelected) - parseFloat(threshold_low) * hhFactor) * (parseFloat(chartData2010s[1].Value)) / ((parseFloat(threshold_up) - parseFloat(threshold_low))*hhFactor));
+                        return M_I - 30;
+
+                    }
+                    else if (parseFloat(incomeSelected) > parseFloat(threshold_up) * hhFactor && parseFloat(incomeSelected) <= 10 * parseFloat(threshold_up) * hhFactor){
+                        var M_I = x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value))+ (parseFloat(incomeSelected) - parseFloat(threshold_up)*hhFactor) * x(parseFloat(chartData2010s[2].Value)) / (hhFactor*(10*parseFloat(threshold_up) - parseFloat(threshold_up)));
+                        return M_I - 30;
+                        //return x(parseFloat(threshold_up))
+                    }
+                    else{
+                        return  width-30;
+                    }
+                
             })
             .attr("y", -10)
             .attr("width",60)

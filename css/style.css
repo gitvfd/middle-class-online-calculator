@@ -1,13 +1,60 @@
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size:1.1em;
+    color:#575757;
 
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+.selTitle{    
+    display: break;
+    min-width: 50%; 
+    margin-top: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:0.90em;
+}
+#wrapper {
+	width: 100%;
+	/**margin: 0 auto;**/
+    display: flex;
+    /**flex-wrap: wrap;**/
+}
+
+
+#selector {
+    padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+	width: 10%;
+	min-width: 230px;
+	height: 100%;
+
+	/**background: #d1dadf;**/
+	flex-grow: 1;
+    flex-basis: 25%;
+}
+
+
+#chart{
+	float: right;
+	/**width:80%;**/
+	min-height: 100%;
+	/**background: #ffffff;*/
+	flex-grow: 1;
+  flex-basis: 75%;
+}
 
 .rangeslider{ 
-    width: 50%; 
+    width: 90%; 
 } 
   
 .myslider { 
     -webkit-appearance: none; 
     background: #c3d1da  ; 
-    width: 50%; 
+    width: 100%; 
     height: 20px; 
     opacity: 2; 
    } 
@@ -30,13 +77,11 @@
 
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
-}
-.selTitle{    
-    display: break;
-    min-width: 50%; 
-    margin-top: 1.5em;
-}
 
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:0.90em;
+}
 .radio {
     display: inline-block;
     width: 90px;
@@ -44,6 +89,10 @@
     text-align: center;
     vertical-align: top;
     padding-top: 5px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:0.90em;
 }
 
 .dropdownSel{
