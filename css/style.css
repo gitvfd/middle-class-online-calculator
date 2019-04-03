@@ -183,6 +183,11 @@ h1{
     border-color:#575757;
 }
 
+#selCouName{
+    font-weight:900;
+    color:rgb(53, 96, 114);
+
+}
 
 .dropdownSel2{
     display: inline;
