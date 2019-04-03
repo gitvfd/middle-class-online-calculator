@@ -28,7 +28,7 @@ h1{
     padding-right: 20px;
 	padding-left: 20px;
 	float: left;
-	width: 10%;
+	width: 20%;
 	min-width: 230px;
 	height: 100%;
 
@@ -40,7 +40,8 @@ h1{
 
 #chart{
 	float: right;
-	/**width:80%;**/
+    /**width:80%;**/
+    width:80%;
 	min-height: 100%;
 	/**background: #ffffff;*/
 	flex-grow: 1;
@@ -105,6 +106,7 @@ h1{
     text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
     background-color:#c3d1da;
     margin-bottom: 5px;
+    min-width:90%;
     margin-top: 5px;
     vertical-align: baseline;
     cursor: pointer;
@@ -122,6 +124,7 @@ h1{
     text-align:center;
     letter-spacing:normal;
     color:#225760;
+    min-width:90%;
     margin-bottom: 5px;
     margin-top: 5px;
     text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
@@ -137,6 +140,8 @@ h1{
     font-size:2vw;
     color:#575757;
 
+    fill:#575757;
+
 }
 
 .chartText{
@@ -151,12 +156,118 @@ h1{
     font-size:1vw;
     fill:#575757;
 }
+#sentence{
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    font-size:16px;
+    color:#575757;
+    line-height: 1.5;
+}
+.highlight{
+    font-weight:900;
+    color:rgb(53, 96, 114);
+}
+
+
+#comparaison{
+    width:90%;
+    position: fixed;
+    top: 1%;
+    left: 2.5%;
+    background:#fff;
+    padding:2.5%;
+    display: none;
+    border-style: solid;
+    border-width: 0.25px;
+    border-color:#575757;
+}
+
+
+.dropdownSel2{
+    display: inline;
+    font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    text-align:center;
+    letter-spacing:normal;
+    color:#225760;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+    background-color:#c3d1da;
+    vertical-align: baseline;
+    cursor: pointer;
+    border:none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.chartTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    font-size:1.5vw;
+    fill:#575757;
+}
+
+#chartCompare{
+    margin-top:10px;
+}
+/** Style the buttons that are used to open the tab content */
+button {
+    font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #494444;
+    font-size:16px;
+    background-color: #d6d6d6;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+button:hover {
+    background-color: #a4b6c0;
+}
+
+/* Create an active/current tablink class */
+button.active {
+    background-color: #b18ea4;
+    color: #fff;
+}
+
+
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 @media (max-width: 800px)  {
     .dropdownSel {
         font-size:12px;
     }
+    .chartTitle{
+    font-size:14px;
+    }
 }
 
+@media (max-width: 600px)  {
+
+    #wrapper {
+        display: flex;
+    flex-wrap: wrap;
+    }
+    #selector {
+        
+        width: 100%;
+    }
+
+
+    #chart{
+        width:100%;
+    }
+}
 
 
 

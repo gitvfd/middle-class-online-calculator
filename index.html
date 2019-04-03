@@ -8,9 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="libs/d3.v4.min.js"></script>
     <script src="js/update.js"></script>
-
-
-
+    <script src="js/compare.js"></script>
 </head>
 
 <body id="page">
@@ -69,41 +67,112 @@
                 <option value="family type: couple with children">family type:couple with children</option>
                 <option value="family type: couple with no children">family type:couple with no children</option>
             </select>-->
-        <div class="selTitle">How many persons leave in your household:</div>
-        <div class="rangeslider">
+        <div class="selTitle">How many persons live in your household:</div>
+        <select class="dropdownSel" id="householdSize" onchange="update()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <!--<div class="rangeslider">
             <input type="range" min="1" max="10" value="1" class="myslider" id="sliderRange">
             <p id="rangehhs">Value: <span id="householdSize"></span></p>
-        </div>
-        <div class="selTitle">Your income: <i>(in national currency)</i></div>
+        </div>-->
+        <div class="selTitle">Your income after taxes and benefits:<br/> <i>(in national currency)</i></div>
         <form>
             <label class="radio"><input type="radio"  id="yearlyRadio" name="incomeCalc" value="1" onclick="update()" checked> Yearly</label>
             <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12" onclick="update()" > Monthly</label>
         </form>
-        <input id="incomeSel" type="text" value="your income" onchange="update()"><br>
+        <input id="incomeSel" type="text" onfocus="this.value=''" value="your income" onchange="update()"><br>
+        <br/>
+        <div class="selTitle"><i>Compare 2 country class distributions:</i></div>
+        <button  onclick="openDiv()">Compare</button>
     </div>
     <div id="chart">
         <br>
         <div id="year2010s">Mid 2010s</div>
         <div id="chart2010s"></div>
         <br>
-        <div id="chart2000s"></div>
-        <div id="year2000s">Mid 2000s</div>
+        <div id="sentence">According to your household income and number of people in your your household, <b>you</b> are in the <span class="highlight" id="calcClass">middle-income class</span> in <span class="highlight" id="calcCou">Australia</span>.
+            <br/>
+            A <span class="highlight" id="calcHhSize">1 person</span> household would need between <span class="highlight" id="calcLowThreshold"></span> and <span class="highlight" id="calcUpThreshold"></span> per <span class="highlight" id="calcPeriod">year</span> to be in the middle-income Class in <span class="highlight" id="calcCou2">Australia</span>.
+            <br/>
+            <br />
+            <i>Between mid-2000s and mid 2010s:</i>
+            <br/>
+            The percentage of the population in the middle-income class has <span class="highlight" id="calcMidEvo">increased</span> by <span class="highlight" id="calcMidEvoVal">7</span> percentage points. 
+            <br/>
+            The upper-income class has <span class="highlight" id="calcUpEvo">increased</span> by <span class="highlight" id="calcUpEvoVal">7</span> percentage points.
+            <br />
+            The lower-income class has <span class="highlight" id="calcLowEvo">increased</span> by <span class="highlight" id="calcLowEvoVal">7</span> percentage points.
+        </div>
     </div>
+</div>
+<br/>
+
+<br/>
+<div id=comparaison>
+    <button id="closeButton">close</button>
+    <div class="selTitle">Compare the class distribution in <span id="selCouName">Australia</span> to</div>
+    <select class="dropdownSel2" id="compareSel" onchange="compare()">
+        <option value="AUS">Australia</option>
+        <option value="AUT">Austria</option>
+        <option value="BEL">Belgium</option>
+        <option value="BRA">Brazil</option>
+        <option value="CAN">Canada</option>
+        <option value="CHN">China</option>
+        <option value="CHL">Chile</option>
+        <option value="CZE">Czech Republic</option>
+        <option value="DNK">Denmark</option>
+        <option value="EST">Estonia</option>
+        <option value="FIN">Finland</option>
+        <option value="FRA">France</option>
+        <option value="DEU">Germany</option>
+        <option value="GRC">Greece</option>
+        <option value="HUN">Hungary</option>
+        <option value="ISL">Iceland</option>
+        <option value="IND">India</option>
+        <option value="IRL">Ireland</option>
+        <option value="ISR">Israel</option>
+        <option value="ITA">Italy</option>
+        <option value="JPN">Japan</option>
+        <option value="KOR">Korea</option>
+        <option value="LVA">Latvia</option>
+        <option value="LTU">Lithuania</option>
+        <option value="LUX">Luxembourg</option>
+        <option value="MEX">Mexico</option>
+        <option value="NLD">Netherlands</option>
+        <option value="NOR">Norway</option>
+        <option value="POL">Poland</option>
+        <option value="PRT">Portugal</option>
+        <option value="RUS">Russian Federation</option>
+        <option value="SVK">Slovakia</option>
+        <option value=SVN>Slovenia</option>
+        <option value="ZAF">South Africa</option>
+        <option value="ESP">Spain</option>
+        <option value="SWE">Sweden</option>
+        <option value="CHE">Switzerland</option>
+        <option value="TUR">Turkey</option>
+        <option value="GBR">United Kingdom</option>
+        <option value="USA"  selected>United States</option>
+    </select>
+    <br/>
+
+    <div id="chartCompare"></div>
 </div>
 </body>
 <script>
-
-
         var dataTot = [];
-        var dataThresholds=[];
+        
         var counter = 0;
 
-        d3.tsv("data/data_threshold.tsv", function (error, data) {
-            data.forEach(function (d) {
-                dataThresholds.push(d)
-            })
-        });
-       
+
         d3.tsv("data/data.tsv", function (error, data) {
             data.forEach(function (d) {
                 dataTot.push(d)
@@ -116,18 +185,29 @@
 
 
     var width = document.getElementById("chart2010s").offsetWidth;
+
+    var widthCompare = 0.8*document.getElementById("page").offsetWidth;
+
     var height= 100;
-    var height2000s = 50;
+    var heightCompare = 200;
     var margin=10;
 
     const x = d3.scaleLinear()
                 .domain([0, 100])
                 .range([1, width]).nice()
 
+
+    const xCompare = d3.scaleLinear()
+        .domain([0, 100])
+        .range([1, widthCompare]).nice()
+
     var scaleClass =d3.scaleOrdinal()
                 .domain(["Lower","Middle","Upper"])
                 .range(["#4FF1EE", "#43A5B4", "#356072"]);
 
+    var scaleClassCompare = d3.scaleOrdinal()
+        .domain(["Lower", "Middle", "Upper"])
+        .range(["#4ff19d", "#43b48b", "#357266"]);
 
     var svg2010s = d3.select("#chart2010s")
         .append("svg")
@@ -135,56 +215,21 @@
         .attr("height", height)
         .style("background", "none");
 
-    var svg2000s= d3.select("#chart2000s")
+    var svgcompare= d3.select("#chartCompare")
         .append("svg")
-        .attr("width", width)
-        .attr("height", height2000s)
+        .attr("width", widthCompare)
+        .attr("height", heightCompare)
         .style("background", "none");
 
+    var format = d3.format(",.0f");
+    
 
-  
-    var rangeslider = document.getElementById("sliderRange");
-    var output = document.getElementById("householdSize");
-    output.innerHTML = rangeslider.value;
-
-    rangeslider.oninput = function () {
-        output.innerHTML = this.value;
-        update();
-    } 
-
-    document.getElementById("sliderRange")
+    function openDiv(){
+        document.getElementById("comparaison").style.display = "block";
+    }
+    document.getElementById('closeButton').addEventListener('click', function (e) {
+            e.preventDefault();
+            this.parentNode.style.display = 'none';
+        }, false);
 </script>
 </html>
-
-
-<!--<select class="dropdownSel" id="criSelector" onchange="update()">
-        <option value="-">-</option>
-        <option value="family type: single adult">family type:single adult</option>
-        <option value="family type: single parent">family type:single parent</option>
-        <option value="family type: couple with children">family type:couple with children</option>
-        <option value="family type: couple with no children">family type:couple with no children</option>
-    </select><br>-->
-    <!--<div class="selTitle">Age:</div>
-        <select class="dropdownSel" id="ageSel" onchange="update()">
-            <option value="-">-</option>
-            <option value="age: 0-17">0-17</option>
-            <option value="age: 18-29">18-29</option>
-            <option value="age: 30-44">30-44</option>
-            <option value="age: 45-64">45-64</option>
-            <option value="age: 65 or older">65 or older</option>
-        </select><br>
-        <div class="selTitle">Education Level: </div>
-        <select class="dropdownSel" id="eduSel" onchange="update()">
-            <option value="-">-</option>
-            <option value="education: less than upper secondary">less than upper secondary</option>
-            <option value="education: upper secondary">education: upper secondary</option>
-            <option value="education: tertiary">tertiary</option>
-        </select><br>
-        <div class="selTitle">Familly Type: </div>
-        <select class="dropdownSel" class="dropdownSel" id="famSel" onchange="update()">
-            <option value="-">-</option>
-            <option value="family type: single adult">single adult</option>
-            <option value="family type: single parent">single parent</option>
-            <option value="family type: couple with children">couple with children</option>
-            <option value="family type: couple with no children">couple with no children</option>
-        </select><br>-->

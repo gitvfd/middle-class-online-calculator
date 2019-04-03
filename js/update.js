@@ -1,14 +1,16 @@
 function update(){
     update2010();
-    update2000();
+    compare();
 }
 
 function update2010(){
+    document.getElementById("sentence").style.display = "none";
+
     svg2010s.selectAll("*").remove();
 
     var crtSelected = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].value
     //var criSelected = document.getElementById("criSelector").options[document.getElementById("criSelector").selectedIndex].value
-    var householdSize = document.getElementById("householdSize").innerHTML;
+    var householdSize = document.getElementById("householdSize").options[document.getElementById("householdSize").selectedIndex].value
     var hhFactor = 1;
     if (householdSize!=1)
         hhFactor = Math.sqrt(parseFloat(householdSize));
@@ -29,8 +31,8 @@ function update2010(){
 
     var chartData2010s = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == criSelected && d.Period == "Mid 2010s"})
     
-    var threshold_low = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_lower_threshold_NC;
-    var threshold_up = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Middle_income_upper_threshold_NC;
+    var threshold_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Middle class lower threshold" && d.Period == "Mid 2010s" && d.IncomeClass ==".."})[0].Value;
+    var threshold_up = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Middle class upper threshold" && d.Period == "Mid 2010s" && d.IncomeClass == ".." })[0].Value;
     
     var chartCanvas= svg2010s.append("g")
         .attr("x", margin/2)
@@ -88,20 +90,20 @@ function update2010(){
             .attr("class", "annotText")
             .attr("x", x(chartData2010s[0].Value) - 20)
             .attr("y", height / 3 + 55)
-            .text(d3.format("(.0f")(threshold_low / incomeTime * hhFactor))
+            .text(d3.format(",.0f")(threshold_low / incomeTime * hhFactor))
 
         chartCanvas
             .append("text")
             .attr("class", "annotText")
             .attr("x", x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value)) - 20)
             .attr("y", height / 3 +55)
-            .text(d3.format("(.0f")(threshold_up / incomeTime * hhFactor))
+            .text(d3.format(",.0f")(threshold_up / incomeTime * hhFactor))
 
         ////////////////
         // Median Income    
         ////////////////
-
-        var medianIncome = dataThresholds.filter(function (d) { return d.country == crtSelected })[0].Median_NC;    
+  
+        var medianIncome = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Median income" && d.Period == "Mid 2010s" && d.IncomeClass == ".." })[0].Value;
         chartCanvas
             .append("text")
             .attr("class", "annotText")
@@ -120,7 +122,7 @@ function update2010(){
                 }
             })
             .attr("y", height / 3 +60)
-            .text(d3.format("(.0f")(medianIncome / incomeTime * hhFactor) )    
+            .text(d3.format(",.0f")(medianIncome / incomeTime * hhFactor) )    
 
 
 
@@ -211,67 +213,76 @@ function update2010(){
             .attr("y", -10)
             .attr("width",60)
             .attr("height", 60)
+
+
+        document.getElementById("sentence").style.display = "block";
+        
+        /******************
+         * UPDATE SENTENCE*
+         ******************/
+        
+        /***SPAN***/
+        if (parseFloat(incomeSelected) < parseFloat(threshold_low) * hhFactor) {
+            document.getElementById("calcClass").innerHTML ='lower-income';    
+        }
+        else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) * hhFactor && parseFloat(incomeSelected) <= parseFloat(threshold_up) * hhFactor) {
+            document.getElementById("calcClass").innerHTML = 'middle-income';    
+        }
+        else {
+            document.getElementById("calcClass").innerHTML = 'upper-income';    
+        }
+        /***SPAN***/
+        document.getElementById("calcCou").innerHTML = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].innerHTML;  
+        /***SPAN***/
+        document.getElementById("calcCou2").innerHTML = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].innerHTML;    
+        /***SPAN***/
+        if (householdSize == "1")
+            document.getElementById("calcHhSize").innerHTML = householdSize + " person"; 
+        else
+            document.getElementById("calcHhSize").innerHTML = householdSize + " persons"; 
+        /***SPAN***/
+        document.getElementById("calcLowThreshold").innerHTML = format(threshold_low / incomeTime * hhFactor)
+        /***SPAN***/
+        document.getElementById("calcUpThreshold").innerHTML = format(threshold_up / incomeTime * hhFactor)
+        /***SPAN***/
+        if (incomeTime == "1")
+            document.getElementById("calcPeriod").innerHTML = "year";
+        else
+            document.getElementById("calcPeriod").innerHTML = "month"; 
+        
+        /***SPAN PAST***/
+        console.log(dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Lower" }))
+        var past_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Lower" })[0].Value;
+        var new_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2010s" && d.IncomeClass == "Lower" })[0].Value;
+        var past_middle = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Middle" })[0].Value;
+        var new_middle = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2010s" && d.IncomeClass == "Middle" })[0].Value;
+        var past_up = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Upper" })[0].Value;
+        var new_up = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2010s" && d.IncomeClass == "Upper" })[0].Value;
+
+
+        if (parseFloat(new_low) -parseFloat(past_low)>=0)
+            document.getElementById("calcLowEvo").innerHTML =  "increased"; 
+        else
+            document.getElementById("calcLowEvo").innerHTML = "decreased"; 
+
+        if (parseFloat(new_middle) - parseFloat(past_middle) >= 0)
+            document.getElementById("calcMidEvo").innerHTML = "increased";
+        else
+            document.getElementById("calcMidEvo").innerHTML = "decreased"; 
+      
+        if (parseFloat(new_up) - parseFloat(past_up) >= 0)
+                document.getElementById("calcUpEvo").innerHTML = "increased";
+        else
+                document.getElementById("calcUpEvo").innerHTML = "decreased"; 
+
+        
+
+        document.getElementById("calcLowEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_low) - parseFloat(past_low));
+        document.getElementById("calcMidEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_middle) - parseFloat(past_middle));
+        document.getElementById("calcUpEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_up) - parseFloat(past_up) );
+        
     }
 
     
 }
 
-function update2000() {
-    svg2000s.selectAll("*").remove();
-
-    var crtSelected = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].value
-    var incomeSelected = document.getElementById("incomeSel").value
-
-    var chartData2000s = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" })
-    
-
-    var chartCanvas = svg2000s.append("g")
-        .attr("x", margin / 2)
-        .attr("y", margin / 2)
-        .attr("width", width - margin)
-        .attr("height", height - margin);
-
-    var threshold2000 = 0;
-    var threshold2000Text = 0;
-    var threshold2000Val = 0;
-    chartCanvas.selectAll("rect")
-        .data(chartData2000s)
-        .enter()
-        .append("rect")
-        .attr("x", function (d, i) {
-            var thresholdLimit = threshold2000;
-            threshold2000 = threshold2000 + parseFloat(d.Value);
-            return x(thresholdLimit);
-        })
-        .attr("y", 0)
-        .attr("width", function (d, i) { return x(parseFloat(d.Value)) })
-        .attr("height", 40)
-        .style("fill", function (d) { return scaleClass(d.IncomeClass) })
-
-    chartCanvas.selectAll("text")
-        .data(chartData2000s)
-        .enter()
-        .append("text")
-        .attr("class", "chartText")
-        .attr("x", function (d, i) {
-            var thresholdLimit = threshold2000Text;
-            threshold2000Text = threshold2000Text + parseFloat(d.Value);
-            return x(thresholdLimit) + 20;
-        })
-        .attr("y", 15)
-        .text(function (d) { return d.IncomeClass });
-
-    chartCanvas.selectAll()
-        .data(chartData2000s)
-        .enter()
-        .append("text")
-        .attr("class", "chartText")
-        .attr("x", function (d, i) {
-            var thresholdLimit = threshold2000Val;
-            threshold2000Val = threshold2000Val + parseFloat(d.Value);
-            return x(thresholdLimit) + 20;
-        })
-        .attr("y", 35)
-        .text(function (d) { return d3.format(".0%")(d.Value / 100) })
-
-}
