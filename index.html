@@ -91,8 +91,10 @@
         </form>
         <input id="incomeSel" type="text" onfocus="this.value=''" value="your income" onchange="update()"><br>
         <br/>
-        <div class="selTitle"><i>Compare 2 country class distributions:</i></div>
-        <button  onclick="openDiv()">Compare</button>
+        <div id="compareButton">
+            <div class="selTitle"><i>Compare 2 country class distributions:</i></div>
+            <button  onclick="openDiv()">Compare</button>
+        </div>
     </div>
     <div id="chart">
         <br>
@@ -105,13 +107,20 @@
             <br/>
             <br />
             <i>Between mid-2000s and mid 2010s:</i>
-            <br/>
-            The percentage of the population in the middle-income class has <span class="highlight" id="calcMidEvo">increased</span> by <span class="highlight" id="calcMidEvoVal">7</span> percentage points. 
-            <br/>
-            The upper-income class has <span class="highlight" id="calcUpEvo">increased</span> by <span class="highlight" id="calcUpEvoVal">7</span> percentage points.
-            <br />
-            The lower-income class has <span class="highlight" id="calcLowEvo">increased</span> by <span class="highlight" id="calcLowEvoVal">7</span> percentage points.
-        </div>
+            <ul>
+                <li>
+                The percentage of the population in the middle-income class has <span class="highlight" id="calcMidEvo">increased</span> by <span class="highlight" id="calcMidEvoVal">7</span> percentage points.
+                </li>
+                <li>
+                The upper-income class has <span class="highlight" id="calcUpEvo">increased</span> by <span class="highlight"
+                    id="calcUpEvoVal">7</span> percentage points.
+                </li>
+                <li>
+                The lower-income class has <span class="highlight" id="calcLowEvo">increased</span> by <span class="highlight"
+                    id="calcLowEvoVal">7</span> percentage points.
+                </li>
+            </ul>
+             </div>
     </div>
 </div>
 <br/>
