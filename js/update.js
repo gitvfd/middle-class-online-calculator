@@ -216,6 +216,8 @@ function update2010(){
 
 
         document.getElementById("sentence").style.display = "block";
+
+        document.getElementById("compareButton").style.display = "block";
         
         /******************
          * UPDATE SENTENCE*

@@ -213,6 +213,9 @@ h1{
     fill:#575757;
 }
 
+#compareButton{
+    display:none;
+}
 #chartCompare{
     margin-top:10px;
 }
