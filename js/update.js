@@ -239,9 +239,9 @@ function update2010(){
         document.getElementById("calcCou2").innerHTML = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].innerHTML;    
         /***SPAN***/
         if (householdSize == "1")
-            document.getElementById("calcHhSize").innerHTML = householdSize + " person"; 
+            document.getElementById("calcHhSize").innerHTML = householdSize + "-person"; 
         else
-            document.getElementById("calcHhSize").innerHTML = householdSize + " persons"; 
+            document.getElementById("calcHhSize").innerHTML = householdSize + "-person"; 
         /***SPAN***/
         document.getElementById("calcLowThreshold").innerHTML = format(threshold_low / incomeTime * hhFactor)
         /***SPAN***/
@@ -279,9 +279,9 @@ function update2010(){
 
         
 
-        document.getElementById("calcLowEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_low) - parseFloat(past_low));
-        document.getElementById("calcMidEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_middle) - parseFloat(past_middle));
-        document.getElementById("calcUpEvoVal").innerHTML = d3.format(",.2f")(parseFloat(new_up) - parseFloat(past_up) );
+        document.getElementById("calcLowEvoVal").innerHTML = d3.format(",.1f")(parseFloat(new_low) - parseFloat(past_low));
+        document.getElementById("calcMidEvoVal").innerHTML = d3.format(",.1f")(parseFloat(new_middle) - parseFloat(past_middle));
+        document.getElementById("calcUpEvoVal").innerHTML = d3.format(",.1f")(parseFloat(new_up) - parseFloat(past_up) );
         
     }
 
