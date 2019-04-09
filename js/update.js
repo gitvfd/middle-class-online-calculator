@@ -122,7 +122,7 @@ function update2010(){
                     return x(parseFloat(threshold_up))
                 }
             })
-            .attr("y", height / 3 +60)
+            .attr("y", height / 3 +55)
             .text(d3.format(",.0f")(medianIncome / incomeTime * hhFactor) )    
 
 
@@ -159,7 +159,7 @@ function update2010(){
                 }
             })
             .attr("y1", height / 3-10 )
-            .attr("y2", height / 3 + 50)
+            .attr("y2", height / 3 + 42)
             .attr("stroke-width", 0.5)
             .attr("stroke", "#575757")
             .style("stroke-dasharray", ("5, 5"));
@@ -168,6 +168,7 @@ function update2010(){
             .append("text")
             .attr("class", "annotText")
             .attr("x", function () {
+                
                 if (parseFloat(medianIncome) < parseFloat(threshold_low)) {
                     var M_I = x((parseFloat(medianIncome) * (parseFloat(chartData2010s[0].Value))) / parseFloat(threshold_low))
                     return M_I;
@@ -214,6 +215,82 @@ function update2010(){
             .attr("y", -10)
             .attr("width",60)
             .attr("height", 60)
+
+        chartCanvas
+            .append("line")
+            .attr("class", "userLine")
+            .attr("x1", function () {
+                if (parseFloat(incomeSelected) < parseFloat(threshold_low) * hhFactor) {
+                    var M_I = x((parseFloat(incomeSelected) * (parseFloat(chartData2010s[0].Value))) / (parseFloat(threshold_low) * hhFactor))
+                    return M_I ;
+                }
+                else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) * hhFactor && parseFloat(incomeSelected) <= parseFloat(threshold_up) * hhFactor) {
+
+                    var M_I = x(parseFloat(chartData2010s[0].Value)) + x((parseFloat(incomeSelected) - parseFloat(threshold_low) * hhFactor) * (parseFloat(chartData2010s[1].Value)) / ((parseFloat(threshold_up) - parseFloat(threshold_low)) * hhFactor));
+                    return M_I ;
+
+                }
+                else if (parseFloat(incomeSelected) > parseFloat(threshold_up) * hhFactor && parseFloat(incomeSelected) <= 10 * parseFloat(threshold_up) * hhFactor) {
+                    var M_I = x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value)) + (parseFloat(incomeSelected) - parseFloat(threshold_up) * hhFactor) * x(parseFloat(chartData2010s[2].Value)) / (hhFactor * (10 * parseFloat(threshold_up) - parseFloat(threshold_up)));
+                    return M_I ;
+                    //return x(parseFloat(threshold_up))
+                }
+                else {
+                    return width ;
+                }
+            })
+            .attr("x2", function () {
+                if (parseFloat(incomeSelected) < parseFloat(threshold_low) * hhFactor) {
+                    var M_I = x((parseFloat(incomeSelected) * (parseFloat(chartData2010s[0].Value))) / (parseFloat(threshold_low) * hhFactor))
+                    return M_I ;
+                }
+                else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) * hhFactor && parseFloat(incomeSelected) <= parseFloat(threshold_up) * hhFactor) {
+
+                    var M_I = x(parseFloat(chartData2010s[0].Value)) + x((parseFloat(incomeSelected) - parseFloat(threshold_low) * hhFactor) * (parseFloat(chartData2010s[1].Value)) / ((parseFloat(threshold_up) - parseFloat(threshold_low)) * hhFactor));
+                    return M_I ;
+
+                }
+                else if (parseFloat(incomeSelected) > parseFloat(threshold_up) * hhFactor && parseFloat(incomeSelected) <= 10 * parseFloat(threshold_up) * hhFactor) {
+                    var M_I = x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value)) + (parseFloat(incomeSelected) - parseFloat(threshold_up) * hhFactor) * x(parseFloat(chartData2010s[2].Value)) / (hhFactor * (10 * parseFloat(threshold_up) - parseFloat(threshold_up)));
+                    return M_I ;
+                    //return x(parseFloat(threshold_up))
+                }
+                else {
+                    return width;
+                }
+            })
+            .attr("y1", height / 3 - 10)
+            .attr("y2", height / 3 + 50)
+            .attr("stroke-width", 2)
+            .attr("stroke", "#FE8C77")
+            .style("stroke-dasharray", ("5, 5"));
+
+        chartCanvas
+            .append("text")
+            .attr("class", "annotIncomeText")
+            .attr("x", function () {
+                if (parseFloat(incomeSelected) < parseFloat(threshold_low) * hhFactor) {
+                    var M_I = x((parseFloat(incomeSelected) * (parseFloat(chartData2010s[0].Value))) / (parseFloat(threshold_low) * hhFactor))
+                    return M_I;
+                }
+                else if (parseFloat(incomeSelected) >= parseFloat(threshold_low) * hhFactor && parseFloat(incomeSelected) <= parseFloat(threshold_up) * hhFactor) {
+
+                    var M_I = x(parseFloat(chartData2010s[0].Value)) + x((parseFloat(incomeSelected) - parseFloat(threshold_low) * hhFactor) * (parseFloat(chartData2010s[1].Value)) / ((parseFloat(threshold_up) - parseFloat(threshold_low)) * hhFactor));
+                    return M_I-25;
+
+                }
+                else if (parseFloat(incomeSelected) > parseFloat(threshold_up) * hhFactor && parseFloat(incomeSelected) <= 10 * parseFloat(threshold_up) * hhFactor) {
+                    var M_I = x(parseFloat(chartData2010s[0].Value) + parseFloat(chartData2010s[1].Value)) + (parseFloat(incomeSelected) - parseFloat(threshold_up) * hhFactor) * x(parseFloat(chartData2010s[2].Value)) / (hhFactor * (10 * parseFloat(threshold_up) - parseFloat(threshold_up)));
+                    return M_I-25;
+                    //return x(parseFloat(threshold_up))
+                }
+                else {
+                    return width-60;
+                }
+            })
+            .attr("y", height / 3 + 63)
+            .text(d3.format(",.0f")(incomeSelected/incomeTime))
+
 
 
         document.getElementById("sentence").style.display = "block";
