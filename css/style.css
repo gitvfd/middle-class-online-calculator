@@ -1,7 +1,6 @@
 
 body { 
   background-color:rgba(53, 96, 114,0.12);
-
 }
 
 h1{
@@ -188,9 +187,10 @@ h1{
     position: fixed;
     top: 1%;
     left: 2.5%;
-    background:#fff;
 
-    background-image: linear-gradient(to left, rgba(79, 241, 238,0.05), rgb(53, 96, 114,0.15));
+    /**background-image: linear-gradient(to left, rgba(79, 241, 238,0.05), rgb(53, 96, 114,0.15));**/
+
+    background-color:rgba(53, 96, 114,0.12);
     padding:2.5%;
     display: none;
     border-style: solid;
