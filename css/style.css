@@ -125,7 +125,7 @@ h1{
     font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-weight:200;
-    font-size:16px;
+    font-size:13px;
     text-align:center;
     letter-spacing:normal;
     color:#225760;
@@ -278,6 +278,9 @@ button.active {
 
     .chartTitle{
     font-size:14px;
+    }
+    #incomeSel{
+        font-size:11px;
     }
 }
 
