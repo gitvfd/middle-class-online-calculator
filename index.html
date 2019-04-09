@@ -89,7 +89,7 @@
             <label class="radio"><input type="radio"  id="yearlyRadio" name="incomeCalc" value="1" onclick="update()" checked> Yearly</label>
             <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12" onclick="update()" > Monthly</label>
         </form>
-        <input id="incomeSel" type="text" onfocus="this.value=''" value="your income" onchange="update()"><br>
+        <input id="incomeSel" type="text" onfocus="this.value=''" value="Type your income then press Enter" onchange="update()"><br>
         <br/>
         <div id="compareButton">
             <div class="selTitle"><i>Compare 2 country class distributions:</i></div>
@@ -101,15 +101,23 @@
         <div id="year2010s">Which income class does your family income fits in?</div>
         <div id="chart2010s"></div>
         <br>
-        <div id="sentence">According to your household income and number of people in your household, <b>you</b> are in the <span class="highlight" id="calcClass">middle-income class</span> in <span class="highlight" id="calcCou">Australia</span>.
+        <div id="sentence">
+            According to the income and number of people in your household, <b>you</b> are in the <span class="highlight" id="calcClass">middle-income class</span> in <span class="highlight" id="calcCou">Australia</span>.
             <br/>
-            A <span class="highlight" id="calcHhSize">1-person</span> household would need between <span class="highlight" id="calcLowThreshold"></span> and <span class="highlight" id="calcUpThreshold"></span> per <span class="highlight" id="calcPeriod">year</span> to be in the middle-income Class in <span class="highlight" id="calcCou2">Australia</span>.
+            In <span class="highlight" id="calcCou2">Australia</span>, a <span class="highlight" id="calcHhSize">1-person</span> household would need between <span class="highlight" id="calcLowThreshold"></span> and <span class="highlight" id="calcUpThreshold"></span> per <span class="highlight" id="calcPeriod">year</span> to be in the middle-income class.
             <br/>
             <br />
-            <i>Between mid-2000s and mid 2010s:</i>
+            In <span class="highlight" id="calcCou3">Australia</span>, <span class="highlight" id="middleClassVal">58%</span>
+            of the population is in the middle-income class,  <span class="highlight" id="lowClassVal">32%</span> are in the lower-income class and <span class="highlight"
+                id="upClassVal"> 10%</span> are in the upper-income class. On average, across OECD countries, <span class="highlight" id="middleClassValOECD">61%</span>
+                are in the middle-income class, <span class="highlight" id="lowClassValOECD">30%</span> are in the
+                lower-income class and <span class="highlight" id="upClassValOECD"> 9%</span> are in the upper-income class.
+            <br />
+            <br/>
+            <i>Between mid-2000s and mid-2010s:</i>
             <ul>
                 <li>
-                The percentage of the population in the middle-income class has <span class="highlight" id="calcMidEvo">increased</span> by <span class="highlight" id="calcMidEvoVal">7</span> percentage points.
+                The share of the population in the middle-income class has <span class="highlight" id="calcMidEvo">increased</span> by <span class="highlight" id="calcMidEvoVal">7</span> percentage points.
                 </li>
                 <li>
                 The upper-income class has <span class="highlight" id="calcUpEvo">increased</span> by <span class="highlight"
@@ -169,7 +177,8 @@
         <option value="CHE">Switzerland</option>
         <option value="TUR">Turkey</option>
         <option value="GBR">United Kingdom</option>
-        <option value="USA"  selected>United States</option>
+        <option value="USA">United States</option>
+        <option value="OECD" selected>OECD</option>
     </select>
     <br/>
 

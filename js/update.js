@@ -26,11 +26,12 @@ function update2010(){
     //fixed value so far while we decide if we need to pick something else.
         criSelected = "Population share by income class";
     var incomeSelected = document.getElementById("incomeSel").value;
-    if (incomeSelected != "your income")
+    if (incomeSelected != "Type your income then press Enter")
             incomeSelected = incomeTime*document.getElementById("incomeSel").value
 
     var chartData2010s = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == criSelected && d.Period == "Mid 2010s"})
-    
+    var OECDData2010s = dataTot.filter(function (d) { return d.Country == "OECD" && d.Indicator == criSelected && d.Period == "Mid 2010s" })
+
     var threshold_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Middle class lower threshold" && d.Period == "Mid 2010s" && d.IncomeClass ==".."})[0].Value;
     var threshold_up = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Middle class upper threshold" && d.Period == "Mid 2010s" && d.IncomeClass == ".." })[0].Value;
     
@@ -185,7 +186,7 @@ function update2010(){
 
 
     }
-    if (incomeSelected !="your income"){
+    if (incomeSelected !="Type your income then press Enter"){
 
         chartCanvas.append("image")
             .attr("xlink:href", "icon.svg")
@@ -251,9 +252,18 @@ function update2010(){
             document.getElementById("calcPeriod").innerHTML = "year";
         else
             document.getElementById("calcPeriod").innerHTML = "month"; 
+
+        /***SPAN***/
+        document.getElementById("calcCou3").innerHTML = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].innerHTML;
+        document.getElementById("middleClassVal").innerHTML = d3.format(".0%")( chartData2010s[1].Value / 100);
+        document.getElementById("lowClassVal").innerHTML = d3.format(".0%")(chartData2010s[0].Value / 100);
+        document.getElementById("upClassVal").innerHTML = d3.format(".0%")(chartData2010s[2].Value / 100);
+        document.getElementById("middleClassValOECD").innerHTML = d3.format(".0%")(OECDData2010s[1].Value / 100);;
+        document.getElementById("lowClassValOECD").innerHTML = d3.format(".0%")(OECDData2010s[0].Value / 100);
+        document.getElementById("upClassValOECD").innerHTML = d3.format(".0%")(OECDData2010s[2].Value / 100);
+        
         
         /***SPAN PAST***/
-        console.log(dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Lower" }))
         var past_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Lower" })[0].Value;
         var new_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2010s" && d.IncomeClass == "Lower" })[0].Value;
         var past_middle = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Middle" })[0].Value;
