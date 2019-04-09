@@ -143,9 +143,8 @@ h1{
 #year2010s,#year2000s,#supInfo{
     font-family: 'Raleway', sans-serif;
     font-weight:700;
-    font-size:2vw;
+    font-size:24px;
     color:#575757;
-
     fill:#575757;
 
 }
@@ -159,8 +158,16 @@ h1{
 .annotText{
     font-family: 'Raleway', sans-serif;
     font-weight:200;
-    font-size:1vw;
+    font-size:14px;
     fill:#575757;
+}
+.annotIncomeText{
+    font-family: 'Raleway', sans-serif;
+    font-weight:900;
+    font-size:14px;
+    fill:#FE8C77;
+    text-align: left;
+    
 }
 #sentence{
     display: none;
@@ -168,7 +175,7 @@ h1{
     font-weight:200;
     font-size:16px;
     color:#575757;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 .highlight{
     font-weight:900;
@@ -263,13 +270,22 @@ button.active {
     .dropdownSel {
         font-size:12px;
     }
+
+    #year2010s,#year2000s,#supInfo{
+        font-size:18px;
+
+    }
+
     .chartTitle{
     font-size:14px;
     }
 }
 
 @media (max-width: 600px)  {
+    #year2010s,#year2000s,#supInfo{
+        font-size:16px;
 
+    }
     #wrapper {
         display: flex;
     flex-wrap: wrap;
