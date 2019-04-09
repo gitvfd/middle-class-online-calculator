@@ -264,6 +264,9 @@ function update2010(){
         
         
         /***SPAN PAST***/
+        document.getElementById("calcCou4").innerHTML = document.getElementById("ctrSel").options[document.getElementById("ctrSel").selectedIndex].innerHTML;
+
+
         var past_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Lower" })[0].Value;
         var new_low = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2010s" && d.IncomeClass == "Lower" })[0].Value;
         var past_middle = dataTot.filter(function (d) { return d.Country == crtSelected && d.Indicator == "Population share by income class" && d.Period == "Mid 2000s" && d.IncomeClass == "Middle" })[0].Value;
