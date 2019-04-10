@@ -84,16 +84,15 @@
             <input type="range" min="1" max="10" value="1" class="myslider" id="sliderRange">
             <p id="rangehhs">Value: <span id="householdSize"></span></p>
         </div>-->
-        <div class="selTitle">Your income after taxes and benefits:<br/> <i>(in national currency)</i></div>
+        <div class="selTitle">Your household income after taxes and benefits:<br/> <i>(in national currency)</i></div>
         <form>
             <label class="radio"><input type="radio"  id="yearlyRadio" name="incomeCalc" value="1" onclick="update()" checked> Yearly</label>
             <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12" onclick="update()" > Monthly</label>
         </form>
         <input id="incomeSel" type="text" onfocus="this.value=''" value="Type your income then press Enter" onchange="update()"><br>
         <br/>
-        <!--<div id="compareButton">
-            <div class="selTitle"><i>Compare 2 country class distributions:</i></div>
-            <button  onclick="openDiv()">Compare</button>
+        <!--<div id="entryButton">
+            <button  onclick="update()">Show me</button>
         </div>-->
     </div>
     <div id="chart">
