@@ -90,10 +90,18 @@
             <label class="radio"><input type="radio"  id="monthlyRadio" name="incomeCalc" value="12" onclick="update()" > Monthly</label>
         </form>
         <input id="incomeSel" type="text" onfocus="this.value=''" value="Type your income then press Enter" onchange="update()"><br>
-        <br/>
+        
         <!--<div id="entryButton">
             <button  onclick="update()">Show me</button>
         </div>-->
+            <div id="expTitle"><i>Explanations:</i></div>
+            <div id="explainer">
+            <ul>
+                <li><b>Lower-income class</b> refers to households with income below 75% of the median national income</li>
+                <li><b>Middle-income class</b> refers to households with income between 75% and 200% of the median national income</li>
+                <li><b>Upper-income class</b> refers to households with income above 200% of the median national income</li>
+            </ul>
+        </div>
     </div>
     <div id="chart">
         <br>
