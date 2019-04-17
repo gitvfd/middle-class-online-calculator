@@ -21,6 +21,33 @@ h1{
     font-weight:300;
     font-size:0.90em;
 }
+
+#expTitle{    
+    display: break;
+    min-width: 50%; 
+    margin-top: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:900;
+    font-size:14px;
+    color:#575757
+}
+
+#explainer{    
+    display: break;
+    min-width: 50%; 
+    font-family: 'Raleway', sans-serif;
+    color:#575757;
+    font-weight:300;
+    font-size:12px;
+}
+
+#explainer ul{  
+  list-style-position: inside;
+  padding-left: 0;
+}
+#explainer li{  
+  margin: 0 0 7.5px 0px;
+}
 #wrapper {
 	width: 100%;
 	/**margin: 0 auto;**/
@@ -64,7 +91,6 @@ h1{
     height: 20px; 
     opacity: 2; 
    } 
-  
   
 .myslider::-webkit-slider-thumb { 
     -webkit-appearance: none; 
